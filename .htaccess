@@ -1,0 +1,12 @@
+Options -Indexes
+Options -MultiViews
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php?action=$1 [QSA,L]
+
+
+<Files .htaccess>
+	Order Allow,Deny
+	Deny from all
+</Files>
