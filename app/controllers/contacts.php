@@ -32,10 +32,14 @@ class contacts extends Controller
         $db = new Mysql();
         $db->timer = $tt;
         $tt->checkTime();
+
+
         //$datas = $db->getWithPagination("accountlist", 1, 10, ['visible'=>0], [], []);
-       // $datas = $db->getData("accountlist", ['visible'=>0], [], 10,[]);
-        $d = $db->rawQuery("SELECT * FROM accountlist");
-        $error = $db->getError();
+         $datas = $db->getData("accountlist", ['visible'=>0], [], 10,[]);
+     
+        //$d = $db->rawQuery("SELECT * FROM accountlist");
+        $tt->checkTime();
+         $error = $db->getError();
        
         echo "Hata Mesajı: " . $db->getErrorMessage();
         echo "MySQL Hata Kodu: " . $error['code'];
@@ -50,6 +54,6 @@ class contacts extends Controller
             print_r($log);
         }
 
-       // print_r($datas);
+        // print_r($datas);
     }
 }

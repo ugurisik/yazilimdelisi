@@ -21,13 +21,24 @@ class security
         return self::$instance;
     }
 
-    private function initCSRF()
-    {
-       
+    private function initCSRF() {
         if (!session::getInstance()->has('csrf_token')) {
-            session::getInstance()->set('csrf_token', bin2hex(random_bytes(32)));
+            $token = bin2hex(random_bytes(32));
+            session::getInstance()->set('csrf_token', $token);
+            setcookie('csrf_token', $token, [
+                'httponly' => true,
+                'secure' => true,
+                'samesite' => 'Strict'
+            ]);
         }
         $this->csrfToken = session::getInstance()->get('csrf_token');
+    }
+
+    public function refreshCSRFToken() {
+        $token = bin2hex(random_bytes(32));
+        session::getInstance()->set('csrf_token', $token);
+        $this->csrfToken = $token;
+        return $token;
     }
 
     public function getCSRFToken()
@@ -40,11 +51,11 @@ class security
         return self::getInstance()->getCSRFToken();
     }
 
-    public function validateCSRF()
-    {
-        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $token = $_POST['csrf_token'] ?? '';
-            if (!hash_equals($_SESSION['csrf_token'], $token)) {
+    public function validateCSRF() {
+        $safeMethods = ['GET', 'HEAD', 'OPTIONS'];
+        if (!in_array($_SERVER['REQUEST_METHOD'], $safeMethods)) {
+            $token = $_POST['csrf_token'] ?? $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+            if (!hash_equals(session::getInstance()->get('csrf_token'), $token)) {
                 throw new SecurityException('CSRF token doğrulaması başarısız!');
             }
         }

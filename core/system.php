@@ -2,6 +2,8 @@
 
 use App\helpers\utils\SystemException;
 use App\helpers\utils\session;
+use App\middlewares\RateLimitMiddleware;
+
 class System
 {
 
@@ -16,7 +18,8 @@ class System
     {
         try {
             session::getInstance()->start();
-
+            $rateLimiter = new RateLimitMiddleware();
+            $rateLimiter->handle();
 
             $url = $this->parseUrl();
             $url = $this->validateUrl($url);

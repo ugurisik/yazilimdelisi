@@ -1,14 +1,43 @@
-<?php 
-
+<?php
 
 namespace App\helpers\utils;
 
-class SecurityException extends \Exception {}
+if (!class_exists('\App\helpers\utils\SecurityException')) {
+    class SecurityException extends \Exception {
+        public function __construct($message, $code = 403) {
+            parent::__construct($message, $code);
+        }
+    }
+}
 
-class ControllerException extends \Exception {}
+if (!class_exists('\App\helpers\utils\ControllerException')) {
+    class ControllerException extends \Exception {
+        public function __construct($message, $code = 404) {
+            parent::__construct($message, $code);
+        }
+    }
+}
 
-class SessionException extends \Exception {}
+if (!class_exists('\App\helpers\utils\SessionException')) {
+    class SessionException extends \Exception {
+        public function __construct($message, $code = 500) {
+            parent::__construct($message, $code);
+        }
+    }
+}
 
-class HashException extends \Exception {}
+if (!class_exists('\App\helpers\utils\HashException')) {
+    class HashException extends \Exception {
+        public function __construct($message, $code = 500) {
+            parent::__construct($message, $code);
+        }
+    }
+}
 
-class SystemException extends \Exception {}
+if (!class_exists('\App\helpers\utils\SystemException')) {
+    class SystemException extends \Exception {
+        public function __construct($message, $code = 500) {
+            parent::__construct($message, $code);
+        }
+    }
+}

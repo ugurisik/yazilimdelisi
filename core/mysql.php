@@ -145,14 +145,9 @@ class Mysql extends \MysqliDb
 
     public function rawQuery($query, $params = null)
     {
-        // TODO:: Fix slow queries for all
-        $this->timer->checkTime();
         return $this->safeExecute('RAW_QUERY', function() use ($query, $params) {
-            $this->timer->checkTime();
             $this->resetQuery();
-            $this->timer->checkTime();
-            parent::rawQuery($query, $params);
-            $this->timer->checkTime();
+            return parent::rawQuery($query, $params);
         });
     }
 
