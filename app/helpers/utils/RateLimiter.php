@@ -8,7 +8,6 @@ class RateLimiter {
     private $decayMinutes;
 
     public function __construct($maxAttempts = 60, $decayMinutes = 1) {
-        // Storage'ı session'dan al
         if (!isset($_SESSION['rate_limit_storage'])) {
             $_SESSION['rate_limit_storage'] = [];
         }
@@ -21,13 +20,10 @@ class RateLimiter {
         $key = $this->getKey($key);
         $now = time();
         
-        // Temizle ve güncelle
         $this->cleanOldAttempts($key, $now);
         
-        // Mevcut girişimleri al
         $attempts = $this->getAttempts($key);
         
-        // Yeni girişimi ekle
         $this->storage[$key][] = $now;
         
         return count($attempts) + 1;
