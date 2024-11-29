@@ -4,13 +4,20 @@ use App\helpers\utils\security as security;
 use App\helpers\utils\functions as func;
 use Core\Mysql;
 use App\helpers\utils\TimeChecker;
-
+use App\helpers\utils\DebugBar;
 class contacts extends Controller
 {
     public function index(...$params)
     {
+        $debugBar = DebugBar::getInstance();
+        $debugBar->addMessage("Hello, World!", "info");
+        $debugBar->addException(new Exception("An error occurred"));
+
         $this->setData("page_title", "Contacts");
         $this->view("user", "main", $params, false);
+
+        
+
         echo "User IP: " . security::getIP() . "<br>";
         echo "User OS: " . security::getOS() . "<br>";
         echo "User Browser: " . security::getBrowser() . "<br>";

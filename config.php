@@ -18,4 +18,5 @@ define('VIEW_PATH', 'templates/');
 define('PUBLIC_PATH', 'public/');
 define('DEFAULT_THEME', 'user');
 define('ENCRYPTION_KEY', base64_encode(md5('123456789AAZZSSDD')));
+define("SITE_URL", (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]/yazilimdelisi");
 define('DEBUG', true);

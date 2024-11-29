@@ -3,6 +3,7 @@
 
 use App\helpers\utils\Security;
 use App\helpers\utils\ControllerException;
+use App\helpers\utils\DebugBar;
 
 class Controller
 {
@@ -17,6 +18,8 @@ class Controller
     public function view($theme, $file, $params = [], $isIncFiles = true)
     {
         try {
+            $debugBar = DebugBar::getInstance();
+            $debugBar->startMeasure('view_render', 'View Rendering');
             $this->validateViewFile($theme, $file);
             $params = Security::escapeArray($params);
             $this->viewData = array_merge($this->viewData, $params);
@@ -28,12 +31,15 @@ class Controller
             if ($isIncFiles) {
                 $this->includeHeader($theme);
             }
+            $debugBar->renderHead();
 
             require $this->getViewPath($theme, $file);
-
+            
             if ($isIncFiles) {
                 $this->includeFooter($theme);
             }
+            $debugBar->stopMeasure('view_render');
+            $debugBar->render();
             
             echo ob_get_clean();
             
