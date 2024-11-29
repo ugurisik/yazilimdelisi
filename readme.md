@@ -153,14 +153,16 @@ Debug Bar ile hata ayıklama yapabilirsiniz:
 ## TODO List
 
 ### Kısa Vadeli Hedefler
-- [ ] Veritabanı migration sistemi ekleme
+- [X] Veritabanı migration sistemi ekleme
 - [ ] API authentication sistemi geliştirme
 - [ ] Cache sistemi entegrasyonu
 - [ ] File upload helper sınıfı ekleme
 - [ ] Email gönderme sistemi entegrasyonu
+- [ ] Gelişmiş Kullanıcı İşlemi Log sistemi entegrasyonu
 
 ### Orta Vadeli Hedefler
 - [ ] Admin panel şablonu oluşturma
+- [ ] Modüler yapı oluşturma
 - [ ] Kullanıcı yetkilendirme sistemi geliştirme
 - [ ] Log sistemi geliştirme
 - [ ] Queue (kuyruk) sistemi entegrasyonu
