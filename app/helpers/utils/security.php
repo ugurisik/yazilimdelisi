@@ -88,10 +88,16 @@ class security
     public static function getQueryData($key = null, $default = null)
     {
         if ($key === null) {
-            return self::escapeArray($_GET);
+            return array_map(function($value) {
+                return self::filter($value);
+            }, $_GET);
         }
         
-        return isset($_GET[$key]) ? self::escape($_GET[$key]) : $default;
+        if (!isset($_GET[$key])) {
+            return $default;
+        }
+
+        return self::filter($_GET[$key]);
     }
 
     public static function getIP()
@@ -136,11 +142,17 @@ class security
         return substr(mb_strtoupper($_SERVER['HTTP_ACCEPT_LANGUAGE'], "UTF-8"), 0, 2);
     }
 
-    public static function filter($data)
-    {
-        $data = trim($data);
-        $data = htmlspecialchars($data);
-        $data = addslashes($data);
-        return $data;
+    public static function filter($data) {
+        if (is_array($data)) {
+            return array_map([self::class, 'filter'], $data);
+        }
+        
+        $data = preg_replace('/[\x00-\x1F\x7F]/u', '', $data);
+        
+        $data = self::escape($data);
+        
+        $data = str_replace(['union', 'select', 'insert', 'update', 'delete', 'drop', '--', '/*', '*/'], '', strtolower($data));
+        
+        return trim($data);
     }
 }

@@ -38,6 +38,7 @@
 <script>
     var hostUrl = "<?= SITE_URL?>/public/assets/";
 </script>
+<script src="<?= SITE_URL?>/public/assets/js/main.js"></script>
 <script src="<?= SITE_URL?>/public/assets/plugins/global/plugins.bundle.js"></script>
 <script src="<?= SITE_URL?>/public/assets/js/scripts.bundle.js"></script>
 

@@ -15,9 +15,20 @@ class Controller
         $this->viewData['csrf_token'] = Security::getInstance()->getCSRFToken();
     }
 
-    public function view($theme, $file, $params = [], $isIncFiles = true)
+    public function view($theme, $file, $params = [], $isIncFiles = true, $adminAuth = true, $userAuth = true)
     {
         try {
+
+            if($adminAuth && $this->checkAdminAuth() == false){
+                header('Location: ' . SITE_URL);
+                exit();
+            }
+
+            if($userAuth && $this->checkUserAuth() == false){
+                header('Location: ' . SITE_URL);
+                exit();
+            }
+
             $debugBar = DebugBar::getInstance();
             $debugBar->startMeasure('view_render', 'View Rendering');
             $this->validateViewFile($theme, $file);
@@ -29,15 +40,17 @@ class Controller
             ob_start();
             $params = $this->getData();
             if ($isIncFiles) {
-                $this->includeHeader($theme);
+                require $this->includeHeader($theme);
             }
             $debugBar->renderHead();
 
             require $this->getViewPath($theme, $file);
             
             if ($isIncFiles) {
-                $this->includeFooter($theme);
+                require $this->includeFooter($theme);
             }
+
+            echo "<input type='hidden' id='csrf_token' value='" . Security::getInstance()->getCSRFToken() . "' />";
             $debugBar->stopMeasure('view_render');
             $debugBar->render();
             
@@ -47,6 +60,14 @@ class Controller
             error_log($e->getMessage());
             throw new ControllerException("View yüklenirken hata oluştu: " . $e->getMessage());
         }
+    }
+
+    public function checkAdminAuth(){
+        return true;
+    }
+
+    public function checkUserAuth(){
+        return true;
     }
 
   
@@ -93,7 +114,7 @@ class Controller
     {
         $headerPath = VIEW_PATH . $theme . '/inc/header.php';
         if (file_exists($headerPath)) {
-            require $headerPath;
+            return $headerPath;
         } else {
             throw new ControllerException("Header dosyası bulunamadı: {$headerPath}");
         }
@@ -104,7 +125,7 @@ class Controller
     {
         $footerPath = VIEW_PATH . $theme . '/inc/footer.php';
         if (file_exists($footerPath)) {
-            require $footerPath;
+            return $footerPath;
         } else {
             throw new ControllerException("Footer dosyası bulunamadı: {$footerPath}");
         }

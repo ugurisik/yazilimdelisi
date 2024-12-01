@@ -15,7 +15,7 @@ class DebugBar
     {
         $this->debugBar = new StandardDebugBar();
         $this->renderer = $this->debugBar->getJavascriptRenderer()
-            ->setBaseUrl(SITE_URL . '/vendor/maximebf/debugbar/src/DebugBar/Resources/');
+            ->setBaseUrl(SITE_URL . '/vendor/maximebf/debugbar/src/DebugBar/Resources/')->setAjaxHandlerEnableTab(true)->setEnableJqueryNoConflict(false);
         
         if (!$this->debugBar->hasCollector('memory')) {
             $this->debugBar->addCollector(new \DebugBar\DataCollector\MemoryCollector());

@@ -19,11 +19,11 @@
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 
-    <link href="<?= SITE_URL?>/public/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="<?= SITE_URL?>/public/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="<?= SITE_URL ?>/public/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="<?= SITE_URL ?>/public/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="<?= SITE_URL?>/public/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="<?= SITE_URL?>/public/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="<?= SITE_URL ?>/public/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="<?= SITE_URL ?>/public/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -71,7 +71,7 @@
                             </span>
                         </div>
                         <a href="index.html">
-                            <img alt="Logo" src="<?= SITE_URL?>/public/assets/media/logos/dd.png" class="h-50px" />
+                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/dd.png" class="h-50px" />
                         </a>
                     </div>
 
@@ -120,9 +120,9 @@
                     <div class="app-sidebar-logo flex-shrink-0 d-none d-md-flex align-items-center px-8 justify-content-center"
                         id="kt_app_sidebar_logo">
                         <a href="index.html">
-                            <img alt="Logo" src="<?= SITE_URL?>/public/assets/media/logos/derman_black_logo.png"
+                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/derman_black_logo.png"
                                 class="h-75px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
-                            <img alt="Logo" src="<?= SITE_URL?>/public/assets/media/logos/derman_white_logo.png"
+                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/derman_white_logo.png"
                                 class="h-75px h-lg-75px theme-dark-show" />
                         </a>
 
@@ -148,7 +148,7 @@
                         [
                             'title' => 'Ana Sayfa',
                             'url' => 'home',
-                            'active' => false,
+                            'active' => $params['page'] == 'admin:main' ? true : false,
                             'icon' => 'bi bi-house-door-fill',
                         ],
                         [
@@ -185,20 +185,20 @@
                                     'submenu' => [
                                         [
                                             'title' => 'Ülke Listesi',
-                                            'url' => 'contact/address/3',
-                                            'active' => false,
+                                            'url' => 'area/countries',
+                                            'active' => $params['page'] == 'admin:countries' ? true : false,
                                             'icon' => 'bi bi-globe-americas',
                                         ],
                                         [
                                             'title' => 'Şehir Listesi',
-                                            'url' => 'admin555',
-                                            'active' => true,
+                                            'url' => 'area/cities',
+                                            'active' => $params['page'] == 'admin:cities' ? true : false,
                                             'icon' => 'bi bi-map',
                                         ],
                                         [
                                             'title' => 'İlçe Listesi',
-                                            'url' => 'contact/address/map',
-                                            'active' => false,
+                                            'url' => 'area/zones',
+                                            'active' => $params['page'] == 'admin:zones' ? true : false,
                                             'icon' => 'bi bi-geo',
                                         ],
                                     ]
@@ -223,22 +223,34 @@
                         <div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper hover-scroll-overlay-y my-5" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px">
                             <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold px-3" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
                                 <?php
-                                $activeUrl = "admin555";
+
+                                function checkMenuActiveStates(&$items) {
+                                    $hasActive = false;
+                                    
+                                    foreach ($items as &$item) {
+                                        if (isset($item['submenu'])) {
+                                            $childActive = checkMenuActiveStates($item['submenu']);
+                                            if ($childActive) {
+                                                $item['active'] = true;
+                                                $hasActive = true;
+                                            }
+                                        } elseif (!empty($item['active'])) {
+                                            $hasActive = true;
+                                        }
+                                    }
+                                    
+                                    return $hasActive;
+                                }
+                                checkMenuActiveStates($menuArray);
+
                                 function renderMenu($menuItems)
                                 {
-                                    global $activeUrl;
                                     foreach ($menuItems as $item) {
-
-                                       /* if ($activeUrl == $item['url']) {
-                                            $item['active'] = true;
-                                        } else {
-                                            $item['active'] = false;
-                                        }*/
-
                                         $hasSubmenu = isset($item['submenu']) && !empty($item['submenu']);
                                         $isActive = $item['active'] ?? false;
+                                        
                                         if ($hasSubmenu) {
-                                            echo '<div data-kt-menu-trigger="click" class="menu-item ' . ($isActive ? 'here show' : '') . ' menu-accordion">';
+                                            echo '<div data-kt-menu-trigger="click" class="menu-item menu-accordion ' . ($isActive ? 'hover show' : '') . '">';
                                             echo '<span class="menu-link">';
                                             if (isset($item['icon'])) {
                                                 echo '<span class="menu-icon"><i class="' . $item['icon'] . ' fs-3"></i></span>';
@@ -246,14 +258,13 @@
                                             echo '<span class="menu-title">' . $item['title'] . '</span>';
                                             echo '<span class="menu-arrow"></span>';
                                             echo '</span>';
-
-                                            echo '<div class="menu-sub menu-sub-accordion' . ($isActive ? ' show' : '') . '">';
+                                            echo '<div class="menu-sub menu-sub-accordion ' . ($isActive ? 'show' : '') . '">';
                                             renderMenu($item['submenu']);
                                             echo '</div>';
                                             echo '</div>';
                                         } else {
                                             echo '<div class="menu-item">';
-                                            echo '<a class="menu-link ' . ($isActive ? 'active' : '') . '" href="' . $item['url'] . '">';
+                                            echo '<a class="menu-link ' . ($isActive ? 'active' : '') . '" href="' . SITE_URL . '/' . ADMIN_URI . '/' . $item['url'] . '">';
                                             if (isset($item['icon'])) {
                                                 if (strpos($item['icon'], 'bullet') !== false) {
                                                     echo '<span class="menu-bullet"><span class="' . $item['icon'] . '"></span></span>';
@@ -286,7 +297,7 @@
                                 data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-overflow="true"
                                 data-kt-menu-placement="top-start">
                                 <div class="d-flex flex-center cursor-pointer symbol symbol-circle symbol-40px">
-                                    <img src="<?= SITE_URL?>/public/assets/media/avatars/300-1.jpg" alt="image" />
+                                    <img src="<?= SITE_URL ?>/public/assets/media/avatars/300-1.jpg" alt="image" />
                                 </div>
                                 <div class="d-flex flex-column align-items-start justify-content-center ms-3">
                                     <span class="text-gray-500 fs-8 fw-semibold">administrator</span>
@@ -299,7 +310,7 @@
                                 <div class="menu-item px-3">
                                     <div class="menu-content d-flex align-items-center px-3">
                                         <div class="symbol symbol-50px me-5">
-                                            <img alt="Logo" src="<?= SITE_URL?>/public/assets/media/avatars/300-1.jpg" />
+                                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/avatars/300-1.jpg" />
                                         </div>
 
                                         <div class="d-flex flex-column">

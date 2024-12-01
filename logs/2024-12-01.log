@@ -1,1281 +1,170 @@
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
 )
 
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":">","value":"10","text":"ID B\u00fcy\u00fckt\u00fcr 10"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.id > ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id > ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id > ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
+Table columns: ["id","guid","commonName","nativeName","iso2","iso3","currency","phoneCode","capital","region","subRegion","languages","latLng","status"]
+Joins array: []
+Select array: ["country.*"]
 Filters: []
 Search: ""
 Order: [{"column":"id","dir":"asc"}]
 WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+JOIN clause: 
+SELECT clause: country.*
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
 Final params: Array
 (
     [0] => 0
     [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 25
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 100
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: []
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: 
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<","value":"10","text":"ID K\u00fc\u00e7\u00fckt\u00fcr 10"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.id < ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id < ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id < ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"0","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"desc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id desc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"0","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 0
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":",","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => ,
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 1
-    [1] => 0
-    [2] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: ""
-Order: [{"column":"id","dir":"asc"}]
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ? ORDER BY id asc LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 10
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
-)
-
-Table columns: ["id","guid","countryGuid","cityName","status"]
-Processing column: countryGuid with relation: Array
-(
-    [table] => country
-    [column] => guid
-    [select] => nativeName
-)
-
-Joins array: ["LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid"]
-Select array: ["city.*","city.countryGuid AS countryGuid_raw","COALESCE(country_countryGuid.nativeName, '') AS countryGuid"]
-Filters: [{"column":"id","operator":"<=","value":"10","text":"ID K\u00fc\u00e7\u00fck E\u015fittir 10"},{"column":"status","operator":"=","value":"1","type":"number"}]
-Search: null
-Order: []
-WHERE clause: WHERE city.id <= ? AND city.status = ?
-JOIN clause: LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid
-SELECT clause: city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid
-Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?
-Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid WHERE city.id <= ? AND city.status = ?  LIMIT ?, ?
-Final params: Array
-(
-    [0] => 10
-    [1] => 1
-    [2] => 0
-    [3] => 999999
 )
 
