@@ -3,12 +3,13 @@ namespace App\helpers\utils;
 
 use DebugBar\StandardDebugBar;
 use Exception;
-
+// Her zaman view çağrılmadan önce kullanılmalı!
 class DebugBar
 {
     private $debugBar;
     private $renderer;
     private static $instance = null;
+    private $isRendered = false; 
 
     private function __construct()
     {
@@ -16,7 +17,6 @@ class DebugBar
         $this->renderer = $this->debugBar->getJavascriptRenderer()
             ->setBaseUrl(SITE_URL . '/vendor/maximebf/debugbar/src/DebugBar/Resources/');
         
-        // Only add collectors if they don't already exist
         if (!$this->debugBar->hasCollector('memory')) {
             $this->debugBar->addCollector(new \DebugBar\DataCollector\MemoryCollector());
         }
@@ -25,7 +25,6 @@ class DebugBar
         }
     }
 
-    // Singleton pattern implementation
     public static function getInstance(): self
     {
         if (self::$instance === null) {
@@ -36,12 +35,19 @@ class DebugBar
 
     public function renderHead(): void
     {
+        $this->isRendered = true;
         echo $this->renderer->renderHead();
     }
 
     public function render(): void
     {
+        $this->isRendered = true;
         echo $this->renderer->render();
+    }
+
+    public function hasRendered()
+    {
+        return $this->isRendered;
     }
 
     public function startMeasure(string $name, ?string $label = null): void

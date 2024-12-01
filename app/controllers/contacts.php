@@ -1,10 +1,13 @@
 <?php
 
-use App\helpers\utils\security as security;
+use App\helpers\utils\Security;
 use App\helpers\utils\functions as func;
 use Core\Mysql;
 use App\helpers\utils\TimeChecker;
 use App\helpers\utils\DebugBar;
+use App\helpers\utils\FileUploader;
+use App\helpers\utils\Logger;
+use App\helpers\auth\Components;
 class contacts extends Controller
 {
     public function index(...$params)
@@ -12,24 +15,19 @@ class contacts extends Controller
         $debugBar = DebugBar::getInstance();
         $debugBar->addMessage("Hello, World!", "info");
         $debugBar->addException(new Exception("An error occurred"));
-
-        $this->setData("page_title", "Contacts");
-        $this->view("user", "main", $params, false);
-
+        Logger::getInstance()->log("FileUploader class oluşturuldu.", 'error', true,false);
         
+        $this->setData("page_title", "Contacts");
+        $this->view(DEFAULT_THEME, "main", $params, false);
+    }
 
-        echo "User IP: " . security::getIP() . "<br>";
-        echo "User OS: " . security::getOS() . "<br>";
-        echo "User Browser: " . security::getBrowser() . "<br>";
-        echo "User Agent: " . security::getUserAgent() . "<br>";
-        echo "User Language: " . security::getLang() . "<br>";
-        $func = new func();
-        echo "Random String: " . $func->generateRandomString(10) . "<br>";
+    public function addComp(){
+        Components::getInstance()->addComponents();
     }
 
     public function add()
     {
-        $this->jsonResponse(["status" => "success", "message" => "User added successfully", "csrf_token" => security::getCSRF()]);
+        $this->jsonResponse(["status" => "success", "message" => "User added successfully", "csrf_token" => Security::getCSRF()]);
     }
 
 

@@ -77,10 +77,14 @@ class System
 
     public function checkFile($url = [])
     {
-        if ($url[0] == $this->adminController) {
+        if ($url[0] == ADMIN_URI) {
             $controllerPath = $this->adminController;
+            array_shift($url);
         } else {
             $controllerPath = $this->controllerPath;
+        }
+        if(!isset($url[0])){
+            $url[0] = $this->method;
         }
         if (file_exists($controllerPath . $url[0] . '.php')) {
             $this->setController($url[0]);

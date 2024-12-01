@@ -6,7 +6,9 @@
         }
     },
     "require": {
-        "thingengineer/mysqli-database-class": "dev-master"
+        "thingengineer/mysqli-database-class": "dev-master",
+        "phpoffice/phpspreadsheet": "^3.5",
+        "tecnickcom/tcpdf": "^6.7"
     },
     "require-dev": {
         "maximebf/debugbar": "^1.23"

@@ -75,7 +75,7 @@ class Controller
     {
         header('Content-Type: application/json');
         http_response_code($statusCode);
-        echo json_encode($data);
+        echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         exit;
     }
 

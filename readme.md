@@ -153,7 +153,6 @@ Debug Bar ile hata ayıklama yapabilirsiniz:
 ## TODO List
 
 ### Kısa Vadeli Hedefler
-- [X] Veritabanı migration sistemi ekleme
 - [ ] API authentication sistemi geliştirme
 - [ ] Cache sistemi entegrasyonu
 - [ ] File upload helper sınıfı ekleme
@@ -173,7 +172,6 @@ Debug Bar ile hata ayıklama yapabilirsiniz:
 - [ ] Docker entegrasyonu
 - [ ] WebSocket desteği ekleme
 - [ ] GraphQL desteği ekleme
-- [ ] Mikroservis mimarisi için altyapı hazırlama
 
 ### Sürekli İyileştirmeler
 - [ ] Kod dokümantasyonunu geliştirme

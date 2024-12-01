@@ -1,7 +1,10 @@
 <?php
 
 namespace Core;
+
+use App\helpers\utils\Logger;
 use App\helpers\utils\TimeChecker;
+
 class Mysql extends \MysqliDb
 {
     private $lastError = null;
@@ -11,6 +14,21 @@ class Mysql extends \MysqliDb
     private $queryLog = [];
     private $queryStartTime = null;
     public TimeChecker $timer;
+    private static $instance = null;
+
+    protected $columnToTable = [
+        'packageCategoryGuid' => ['table' => 'system_package_categories', 'column' => 'guid', 'select' => 'categoryTitle'],
+        'topCategoryGuid' => ['table' => 'system_package_categories', 'column' => 'guid', 'select' => 'categoryTitle'],
+        'companyGuid' => ['table' => 'system_companies', 'column' => 'guid', 'select' => 'companyName'],
+        'packageGuid' => ['table' => 'system_packages', 'column' => 'guid', 'select' => 'packageTitle'],
+        'countryGuid' => ['table' => 'country', 'column' => 'guid', 'select' => 'nativeName'],
+        'cityGuid' => ['table' => 'city', 'column' => 'guid', 'select' => 'cityName'],
+        'userGuid' => ['table' => 'users', 'column' => 'guid', 'select' => 'fullName'],
+        'branchGuid' => ['table' => 'branch', 'column' => 'guid', 'select' => 'branchName'],
+        'topUserGuid' => ['table' => 'users', 'column' => 'guid', 'select' => 'fullName'],
+        'roleGuid' => ['table' => 'roles', 'column' => 'guid', 'select' => 'roleName'],
+        'taxOfficeGuid' => ['table' => 'tax_office', 'column' => 'guid', 'select' => 'officeName']
+    ];
 
     public function __construct()
     {
@@ -18,24 +36,50 @@ class Mysql extends \MysqliDb
         $this->debugMode = defined('DEBUG') ? DEBUG : false;
     }
 
-    public function get($table, $limit = null, $order = ['id' => 'DESC'])
+    public static function getInstance()
     {
-        return $this->safeExecute('SELECT', function() use ($table, $limit, $order) {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
+
+
+    public function getAll($table, $limit = null, $order = ['id' => 'DESC'])
+    {
+        return $this->safeExecute('SELECT', function () use ($table, $limit, $order) {
             $this->resetQuery();
-            foreach ($order as $key => $value) {
-                $this->orderBy($key, $value);
+            if (isset($order)) {
+                foreach ($order as $key => $value) {
+                    $this->orderBy($key, $value);
+                }
             }
+
             return parent::get($table, $limit);
         });
     }
 
-    public function getWithPagination($table, $page = 1, $perPage = 10, $whereParams = [], $whereSigns = [], $order = ['id' => 'DESC'])
+
+
+    public function getWithPagination($table, $page = 1, $perPage = 10, $whereParams = [], $whereSigns = [], $order = ['id' => 'ASC'])
     {
-        return $this->safeExecute('SELECT_PAGINATED', function() use ($table, $page, $perPage, $whereParams, $whereSigns, $order) {
-            
+        return $this->safeExecute('SELECT_PAGINATED', function () use ($table, $page, $perPage, $whereParams, $whereSigns, $order) {
             $this->resetQuery();
-            $totalCount = $this->rawQuery('SELECT count(*) as count FROM ' . $table)[0]['count'];
-            $this->resetQuery();
+
+            $whereClause = "";
+            $params = [];
+            if (!empty($whereParams)) {
+                $conditions = [];
+                foreach ($whereParams as $key => $value) {
+                    $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
+                    $conditions[] = "`$key` $sign ?";
+                    $params[] = $value;
+                }
+                $whereClause = "WHERE " . implode(' AND ', $conditions);
+            }
+
+            $totalCount = $this->rawQuery("SELECT COUNT(*) as count FROM `$table` $whereClause", $params)[0]['count'];
+
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
                 $this->addWhere($key, $value, $sign);
@@ -45,13 +89,23 @@ class Mysql extends \MysqliDb
                 $this->orderBy($key, $value);
             }
 
-           
-       
             $totalPages = ceil($totalCount / $perPage);
             $page = max(1, min($page, $totalPages));
             $offset = ($page - 1) * $perPage;
 
             $data = parent::get($table, [$offset, $perPage]);
+
+
+            foreach ($data as $key => $value) {
+                foreach ($value as $key2 => $value2) {
+                    if (isset($this->columnToTable[$key2])) {
+                        $tableData = $this->columnToTable[$key2];
+                        $table = $tableData['table'];
+                        $column = $tableData['select'];
+                        $data[$key][$key2] = $this->getOneData($table, ['guid' => $value2])['' . $column . ''];
+                    }
+                }
+            }
 
             return [
                 'data' => $data,
@@ -66,9 +120,214 @@ class Mysql extends \MysqliDb
         });
     }
 
+
+    public function getWithPagination2($table, $page = 1, $length = 10, $filters = [], $search = null, $order = null)
+    {
+        return $this->safeExecute('RAW_QUERY', function () use ($table, $page, $length, $filters, $search, $order) {
+            $offset = ($page - 1) * $length;
+            $where = [];
+            $params = [];
+            $joins = [];
+            $select = ["$table.*"];
+
+            $tableColumns = $this->rawQuery("SHOW COLUMNS FROM $table");
+            $columnNames = array_column($tableColumns, 'Field');
+            
+            Logger::getInstance()->logSaveFile('Table columns: ' . json_encode($columnNames), 'info', true);
+
+            if (!empty($this->columnToTable)) {
+                foreach ($this->columnToTable as $column => $relation) {
+                    if (in_array($column, $columnNames)) {
+                        Logger::getInstance()->logSaveFile("Processing column: $column with relation: " . print_r($relation, true), 'info', true);
+                        
+                        if (strpos($column, 'Guid') !== false) {
+                            $joinTable = $relation['table'];
+                            $joinTableAlias = $joinTable . '_' . $column;
+                            $joins[] = "LEFT JOIN {$relation['table']} AS {$joinTableAlias} ON {$table}.{$column} = {$joinTableAlias}.{$relation['column']}";
+                            
+                            if (isset($relation['select'])) {
+                                $select[] = "{$table}.{$column} AS {$column}_raw";
+                                $select[] = "COALESCE({$joinTableAlias}.{$relation['select']}, '') AS {$column}";
+                            }
+                        }
+                    }
+                }
+            }
+
+            Logger::getInstance()->logSaveFile('Joins array: ' . json_encode($joins), 'info', true);
+            Logger::getInstance()->logSaveFile('Select array: ' . json_encode($select), 'info', true);
+            Logger::getInstance()->logSaveFile('Filters: ' . json_encode($filters), 'info', true);
+            Logger::getInstance()->logSaveFile('Search: ' . json_encode($search), 'info', true);
+            Logger::getInstance()->logSaveFile('Order: ' . json_encode($order), 'info', true);
+
+            if (!empty($filters)) {
+                foreach ($filters as $filter) {
+                    if (!isset($filter['column']) || !isset($filter['operator']) || !isset($filter['value'])) {
+                        continue;
+                    }
+
+                    if (!in_array($filter['column'], $columnNames)) {
+                        continue;
+                    }
+
+                    $operator = $this->convertOperator($filter['operator']);
+                    $value = $filter['value'];
+
+                    $columnInfo = $this->columnToTable[$filter['column']] ?? null;
+                    $searchColumn = $columnInfo ? 
+                        "{$columnInfo['table']}_{$filter['column']}.{$columnInfo['select']}" : 
+                        "$table.{$filter['column']}";
+
+                    if (is_numeric($value)) {
+                        $value = strpos($value, '.') !== false ? floatval($value) : intval($value);
+                        $where[] = "$searchColumn {$operator} ?";
+                        $params[] = $value;
+                    } else {
+                        switch ($operator) {
+                            case 'LIKE':
+                            case 'NOT LIKE':
+                                $where[] = "$searchColumn $operator ?";
+                                $params[] = "%{$value}%";
+                                break;
+                            case 'START':
+                                $where[] = "$searchColumn LIKE ?";
+                                $params[] = "{$value}%";
+                                break;
+                            case 'END':
+                                $where[] = "$searchColumn LIKE ?";
+                                $params[] = "%{$value}";
+                                break;
+                            case 'BETWEEN':
+                                $dates = explode(' - ', $value);
+                                if (count($dates) === 2) {
+                                    $where[] = "$searchColumn BETWEEN ? AND ?";
+                                    $params[] = $dates[0];
+                                    $params[] = $dates[1];
+                                }
+                                break;
+                            default:
+                                $where[] = "$searchColumn {$operator} ?";
+                                $params[] = $value;
+                                break;
+                        }
+                    }
+                }
+            }
+
+            $whereClause = !empty($where) ? 'WHERE ' . implode(' AND ', $where) : '';
+            Logger::getInstance()->logSaveFile('WHERE clause: ' . $whereClause, 'info', true);
+
+            $joinClause = implode(' ', $joins);
+            Logger::getInstance()->logSaveFile('JOIN clause: ' . $joinClause, 'info', true);
+
+            $selectClause = implode(', ', $select);
+            Logger::getInstance()->logSaveFile('SELECT clause: ' . $selectClause, 'info', true);
+
+            if ($search) {
+                $searchWhere = [];
+                $searchColumns = array_intersect($this->getSearchableColumns($table), $columnNames);
+                foreach ($searchColumns as $column) {
+                    $searchWhere[] = "$column LIKE ?";
+                    $params[] = "%$search%";
+                }
+                if (!empty($searchWhere)) {
+                    $whereClause .= !empty($whereClause) ? ' AND ' : 'WHERE ';
+                    $whereClause .= "(" . implode(" OR ", $searchWhere) . ")";
+                }
+            }
+
+            $orderBy = "";
+            if ($order) {
+                $orderBy = "ORDER BY ";
+                $validOrderColumns = [];
+                foreach ($order as $ord) {
+                    if (in_array($ord['column'], $columnNames)) {
+                        $validOrderColumns[] = "{$ord['column']} {$ord['dir']}";
+                    }
+                }
+                if (!empty($validOrderColumns)) {
+                    $orderBy .= implode(", ", $validOrderColumns);
+                } else {
+                    $orderBy = "";
+                }
+            }
+
+            $countQuery = "SELECT COUNT(DISTINCT $table.id) as total FROM $table $joinClause $whereClause";
+            Logger::getInstance()->logSaveFile('Count query: ' . $countQuery, 'info', true);
+            
+            $countParams = $params;
+            
+            $totalResult = empty($countParams) ? 
+                $this->rawQuery($countQuery) : 
+                $this->rawQuery($countQuery, $countParams);
+            
+            $total = is_array($totalResult) && isset($totalResult[0]['total']) ? (int)$totalResult[0]['total'] : 0;
+
+            $query = "SELECT $selectClause FROM $table $joinClause $whereClause $orderBy LIMIT ?, ?";
+            
+            $params[] = (int)$offset;
+            $params[] = (int)$length;
+
+            Logger::getInstance()->logSaveFile('Final query: ' . $query, 'info', true);
+            Logger::getInstance()->logSaveFile('Final params: ' . print_r($params, true), 'info', true);
+
+            $data = empty($params) ? 
+                $this->rawQuery($query) : 
+                $this->rawQuery($query, $params);
+
+            return [
+                'data' => $data ?: [],
+                'pagination' => [
+                    'page' => (int)$page,
+                    'length' => (int)$length,
+                    'total' => $total
+                ]
+            ];
+        });
+    }
+
+    private function convertOperator($operator)
+    {
+        $operator = urldecode($operator);
+
+        $validOperators = ['=', '!=', '>', '>=', '<', '<=', 'LIKE', 'NOT LIKE'];
+        if (in_array($operator, $validOperators)) {
+            return $operator;
+        }
+
+        switch ($operator) {
+            case 'START':
+                return 'LIKE';
+            case 'END':
+                return 'LIKE';
+            case 'BETWEEN':
+                return 'BETWEEN';
+            default:
+                return '='; 
+        }
+    }
+
+    private function getSearchableColumns($table)
+    {
+        $columns = [];
+        $result = $this->query("SHOW COLUMNS FROM $table");
+        foreach ($result as $column) {
+            if (
+                strpos(strtolower($column['Type']), 'varchar') !== false ||
+                strpos(strtolower($column['Type']), 'text') !== false
+            ) {
+                $columns[] = $column['Field'];
+            }
+        }
+        return $columns;
+    }
+
+
+
+
     public function getData($table, $whereParams = [],  $whereSigns = [], $limit = null, $order = ['id' => 'DESC'])
     {
-        return $this->safeExecute('SELECT', function() use ($table, $whereParams, $limit, $whereSigns, $order) {
+        return $this->safeExecute('SELECT', function () use ($table, $whereParams, $limit, $whereSigns, $order) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
@@ -83,7 +342,7 @@ class Mysql extends \MysqliDb
 
     public function getDataOrWhere($table, $whereParams = [], $limit = null, $whereSigns = [], $order = ['id' => 'DESC'])
     {
-        return $this->safeExecute('SELECT', function() use ($table, $whereParams, $limit, $whereSigns, $order) {
+        return $this->safeExecute('SELECT', function () use ($table, $whereParams, $limit, $whereSigns, $order) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
@@ -98,7 +357,7 @@ class Mysql extends \MysqliDb
 
     public function getOneData($table, $whereParams = [], $whereSigns = [], $order = ['id' => 'DESC'])
     {
-        return $this->safeExecute('SELECT_ONE', function() use ($table, $whereParams, $whereSigns, $order) {
+        return $this->safeExecute('SELECT_ONE', function () use ($table, $whereParams, $whereSigns, $order) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
@@ -113,7 +372,7 @@ class Mysql extends \MysqliDb
 
     public function addData($table, $data = [])
     {
-        return $this->safeExecute('INSERT', function() use ($table, $data) {
+        return $this->safeExecute('INSERT', function () use ($table, $data) {
             $this->resetQuery();
             return parent::insert($table, $data);
         });
@@ -121,7 +380,7 @@ class Mysql extends \MysqliDb
 
     public function updateData($table, $data = [], $whereParams = [], $whereSigns = [])
     {
-        return $this->safeExecute('UPDATE', function() use ($table, $data, $whereParams, $whereSigns) {
+        return $this->safeExecute('UPDATE', function () use ($table, $data, $whereParams, $whereSigns) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
@@ -133,7 +392,7 @@ class Mysql extends \MysqliDb
 
     public function deleteData($table, $whereParams = [], $whereSigns = [])
     {
-        return $this->safeExecute('DELETE', function() use ($table, $whereParams, $whereSigns) {
+        return $this->safeExecute('DELETE', function () use ($table, $whereParams, $whereSigns) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $sign = isset($whereSigns[$key]) ? $whereSigns[$key] : '=';
@@ -145,7 +404,7 @@ class Mysql extends \MysqliDb
 
     public function rawQuery($query, $params = null)
     {
-        return $this->safeExecute('RAW_QUERY', function() use ($query, $params) {
+        return $this->safeExecute('RAW_QUERY', function () use ($query, $params) {
             $this->resetQuery();
             return parent::rawQuery($query, $params);
         });
@@ -153,7 +412,7 @@ class Mysql extends \MysqliDb
 
     public function addMultipleData($table, array $multiData)
     {
-        return $this->safeExecute('INSERT_MULTIPLE', function() use ($table, $multiData) {
+        return $this->safeExecute('INSERT_MULTIPLE', function () use ($table, $multiData) {
             $this->resetQuery();
             return $this->insertMulti($table, $multiData);
         });
@@ -161,7 +420,7 @@ class Mysql extends \MysqliDb
 
     public function exists($table, $whereParams = [])
     {
-        return $this->safeExecute('EXISTS', function() use ($table, $whereParams) {
+        return $this->safeExecute('EXISTS', function () use ($table, $whereParams) {
             $this->resetQuery();
             foreach ($whereParams as $key => $value) {
                 $this->where($key, $value);
@@ -229,9 +488,9 @@ class Mysql extends \MysqliDb
             $this->lastError = null;
             $this->lastErrorCode = null;
             $this->queryStartTime = microtime(true);
-            
+
             $result = $callback();
-            
+
             $this->lastQuery = $this->getLastQuery();
             $this->logQuery($operation);
 
@@ -254,7 +513,7 @@ class Mysql extends \MysqliDb
     {
         if ($this->debugMode) {
             $endTime = microtime(true);
-            $duration = round(($endTime - $this->queryStartTime) * 1000, 2); 
+            $duration = round(($endTime - $this->queryStartTime) * 1000, 2);
 
             $this->queryLog[] = [
                 'operation' => $operation,
