@@ -15,16 +15,19 @@ class area extends Controller
 
     public function index() {}
 
-    public function countries() {
-        $this->view("admin", "area/countryList", adminAuth:true, params:['page' => 'admin:countries']);
+    public function countries()
+    {
+        $this->view("admin", "area/countryList", adminAuth: true, params: ['page' => 'admin:countries']);
     }
 
-    public function cities() {
-        $this->view("admin", "area/cityList", adminAuth:true, params:['page' => 'admin:cities']);
+    public function cities()
+    {
+        $this->view("admin", "area/cityList", adminAuth: true, params: ['page' => 'admin:cities']);
     }
 
-    public function zones() {
-        $this->view("admin", "area/zoneList", adminAuth:true, params:['page' => 'admin:zones']);
+    public function zones()
+    {
+        $this->view("admin", "area/zoneList", adminAuth: true, params: ['page' => 'admin:zones']);
     }
 
     public function list($param)
@@ -32,10 +35,10 @@ class area extends Controller
         if (isset($param) && $param == "country") {
             $list = $this->area->countryList($param);
             $this->jsonResponse($list);
-        }else if (isset($param) && $param == "city") {
+        } else if (isset($param) && $param == "city") {
             $list = $this->area->cityList($param);
             $this->jsonResponse($list);
-        }else if (isset($param) && $param == "zone") {
+        } else if (isset($param) && $param == "zone") {
             $list = $this->area->zoneList($param);
             $this->jsonResponse($list);
         } else {
@@ -47,13 +50,40 @@ class area extends Controller
         }
     }
 
-    public function add($param){
+    public function add($param)
+    {
         if (isset($param) && $param == "country") {
             $this->jsonResponse($this->area->addCountry(), 200);
-        }else if (isset($param) && $param == "city") {
-            
-        }else if (isset($param) && $param == "zone") {
-            
+        } else if (isset($param) && $param == "city") {
+        } else if (isset($param) && $param == "zone") {
         }
     }
+
+    public function edit($param)
+    {
+        if (isset($param) && $param == "country") {
+            $this->jsonResponse($this->area->editCountry(), 200);
+        } else if (isset($param) && $param == "city") {
+        } else if (isset($param) && $param == "zone") {
+        }
+    }
+
+    public function remove($param)
+    {
+        if (isset($param) && $param == "country") {
+            $this->jsonResponse($this->area->deleteCountry(), 200);
+        } else if (isset($param) && $param == "city") {
+        } else if (isset($param) && $param == "zone") {
+        }
+    }
+
+    public function get($param, $guid)
+    {
+        if (isset($param) && $param == "country") {
+            $this->jsonResponse($this->area->getCountry($guid), 200);
+        } else if (isset($param) && $param == "city") {
+        } else if (isset($param) && $param == "zone") {
+        }
+    }
+
 }

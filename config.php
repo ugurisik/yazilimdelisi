@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Europe/Istanbul');
 
 // DATABASE CONFIGURATION
 define('DB_HOST', '127.0.0.1');

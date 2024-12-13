@@ -55,14 +55,14 @@ class DataTable
         return $this;
     }
 
-    public function setExportUrls($excelUrl, $pdfUrl) 
+    public function setExportUrls($excelUrl, $pdfUrl)
     {
         $this->exportExcelUrl = $excelUrl;
         $this->exportPdfUrl = $pdfUrl;
         return $this;
     }
 
-    public function addColumn($field, $title, $render = null, $width = null, $type = 'text', $visible = true,$css = '')
+    public function addColumn($field, $title, $render = null, $width = null, $type = 'text', $visible = true, $css = '')
     {
         $this->columns[] = [
             'field' => $field,
@@ -88,7 +88,7 @@ class DataTable
             'text' => $text,
             'icon' => $icon,
             'onClick' => $onClick,
-            'className' => "p-1 px-3 ".$className
+            'className' => "p-1 px-3 " . $className
         ];
         return $this;
     }
@@ -113,7 +113,7 @@ class DataTable
         $html .= $this->generateFilterModal();
 
         $html .= '<div class="mb-3 d-flex justify-content-between"><div class="d-flex">';
-        
+
 
         foreach ($this->buttons as $button) {
             $html .= sprintf(
@@ -125,16 +125,16 @@ class DataTable
             );
         }
         $html .= '</div><div class="d-flex">';
-        
+
         if ($this->exportExcelUrl) {
             $html .= '<button type="button" class="btn btn-success me-2 p-1 px-3" onclick="exportToExcel()"><i class="fas fa-file-excel"></i> Excel</button>';
         }
-        
+
         if ($this->exportPdfUrl) {
             $html .= '<button type="button" class="btn btn-danger me-2 p-1 px-3" onclick="exportToPdf()"><i class="fas fa-file-pdf"></i> PDF</button>';
         }
 
-        $html .= '<button type="button" class="btn btn-primary me-2 p-1 px-3" onclick="showFilterModal()"><i class="fas fa-filter"></i> Filtrele</button></div></div>';
+        $html .= '<button type="button" class="btn btn-primary me-2 p-1 px-3" onclick="showFilterModal()"><i class="fas fa-filter"></i> Filtrele</button><button type="button" class="btn btn-primary me-2 p-1 px-3" onclick="refreshData()"><i class="bi bi-arrow-clockwise p-0"></i></button></div></div>';
 
         $html .= '<div id="activeFilters" class="mb-3"></div>';
 
@@ -241,6 +241,14 @@ class DataTable
             return d;
         }
     },', $this->url);
+
+        $cols = [];
+        foreach ($this->columns as $column) {
+            if (!$column['visible']) {
+                continue;
+            }
+            $cols[] = $column['field'].";". $column['title'];
+        }
 
         $js .= 'columns: [';
         foreach ($this->columns as $column) {
@@ -353,15 +361,23 @@ class DataTable
             $("#filterModal").modal("hide");
         }
 
+        function refreshData() {
+            table_' . $this->id . '.ajax.reload();
+        }
+
         function exportToExcel() {
-            let url = new URL("' . $this->exportExcelUrl . '");
+            let url = new URL("' . SITE_URL . '/export/excel");
             url.searchParams.append("filters", JSON.stringify(activeFilters));
+            url.searchParams.append("columns", ' . json_encode($cols) . ');
+            url.searchParams.append("link", "' . $this->exportExcelUrl . '");
             window.location.href = url.toString();
         }
 
         function exportToPdf() {
-            let url = new URL("' . $this->exportPdfUrl . '");
+            let url = new URL("' . SITE_URL . '/export/pdf");
             url.searchParams.append("filters", JSON.stringify(activeFilters));
+            url.searchParams.append("columns", ' . json_encode($cols) . ');
+            url.searchParams.append("link", "' . $this->exportPdfUrl . '");
             window.open(url.toString(), "_blank");
         }
 

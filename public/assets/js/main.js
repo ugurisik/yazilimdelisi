@@ -20,6 +20,51 @@ function showAlert(message, type = 'success') {
     toastr[type](message);
 }
 
+async function confirmMessage(message, confirmText = 'Evet', cancelText = 'Hayır') {
+    const result = await Swal.fire({
+        text: message,
+        icon: "warning",
+        showCancelButton: true,
+        buttonsStyling: false,
+        confirmButtonText: confirmText,
+        cancelButtonText: cancelText,
+        customClass: {
+            confirmButton: "btn btn-primary",
+            cancelButton: "btn btn-danger"
+        }
+    });
+
+    return result.isConfirmed;
+}
+
+async function deleteItemFunc(url, selected,table) {
+    if (selected.length === 0) {
+        showAlert('Lütfen silmek istediğiniz kayıtları seçin', 'warning');
+        return;
+    }
+    const confirmed = await confirmMessage("Seçili kayıtları silmek istediğinize emin misiniz?");
+    if (confirmed) {
+        try {
+            const response = await $.post(url, {
+                items: selected.map(item => item.guid),
+                csrf_token: $('input[id=csrf_token]').val()
+            });
+
+            if (response.status === 'success') {
+                showAlert(response.message, response.status);
+                table.ajax.reload();
+            } else {
+                showAlert(response.message, response.status);
+            }
+        } catch (error) {
+            showAlert('Bir hata oluştu', 'error');
+        }
+    } else {
+        showAlert('Silme işlemi iptal edildi', 'warning');
+    }
+}
+
+
 function showLoading(show = true) {
     if (show) {
         if (!document.getElementById('kt_app_loading')) {

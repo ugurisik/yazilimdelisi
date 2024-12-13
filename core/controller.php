@@ -4,6 +4,7 @@
 use App\helpers\utils\Security;
 use App\helpers\utils\ControllerException;
 use App\helpers\utils\DebugBar;
+use App\helpers\utils\session;
 
 class Controller
 {
@@ -31,7 +32,7 @@ class Controller
 
             $debugBar = DebugBar::getInstance();
             $debugBar->startMeasure('view_render', 'View Rendering');
-            $this->validateViewFile($theme, $file);
+            $this->getSessionMessage($debugBar);
             $params = Security::escapeArray($params);
             $this->viewData = array_merge($this->viewData, $params);
             
@@ -70,6 +71,15 @@ class Controller
         return true;
     }
 
+    public function getSessionMessage($debugBar){
+        $message = session::getInstance()->get('debugbar');
+        if($message){
+            foreach($message['messages'] as $message){
+                $debugBar->addMessage($message);
+            }
+        }
+    }
+
   
     public function setDataBatch(array $data)
     {
@@ -100,14 +110,6 @@ class Controller
         exit;
     }
 
-   
-    protected function validateViewFile($theme, $file)
-    {
-        $viewPath = $this->getViewPath($theme, $file);
-        if (!file_exists($viewPath)) {
-            throw new ControllerException("View dosyası bulunamadı: {$viewPath}");
-        }
-    }
 
     
     protected function includeHeader($theme)
@@ -134,6 +136,11 @@ class Controller
     
     protected function getViewPath($theme, $file)
     {
-        return VIEW_PATH . $theme . '/' . $file . '.php';
+        if (file_exists(VIEW_PATH . $theme . '/' . $file . '.php')) {
+            return VIEW_PATH . $theme . '/' . $file . '.php';
+        }else{
+            return VIEW_PATH . 'error_404_inner.php';
+        }
+        
     }
 }

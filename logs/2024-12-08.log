@@ -1,0 +1,8 @@
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY id asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+

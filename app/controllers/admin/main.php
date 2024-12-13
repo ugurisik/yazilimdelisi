@@ -12,7 +12,7 @@ class main extends Controller {
     }
 
     public function index() {
-        $this->view("admin", "table", adminAuth:true, params:['page' => 'admin:main']);
+        $this->view("admin", "tablea", adminAuth:true, params:['page' => 'admin:main']);
     }
 
     public function list() {

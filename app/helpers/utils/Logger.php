@@ -1,4 +1,5 @@
 <?php
+
 namespace App\helpers\utils;
 
 use App\helpers\utils\DebugBar;
@@ -6,7 +7,8 @@ use App\helpers\utils\session;
 use App\helpers\utils\FileUploader;
 use Core\Mysql;
 
-class Logger {
+class Logger
+{
 
     private static $instance = null;
     public static function getInstance(): self
@@ -17,33 +19,48 @@ class Logger {
         return self::$instance;
     }
 
-    public function log($message, $type = 'info', $saveFile = false, $saveDb = false) {
-        $debugBar = DebugBar::getInstance();
-        $m = date('Y-m-d H:i:s') . " -> ". $type. " <- " . $message;
-        $debugBar->addMessage($m, $type);
-        if($saveDb){
-            $this->logToDB($m, $type);
-        }
-        if($saveFile){
+    public function log($message, $type = 'info', $saveFile = false, $saveDb = false)
+    {
+        $m = date('Y-m-d H:i:s') . " -> " . $type . " <- " . $message;
+        $oldMessages = session::getInstance()->get('debugbar');
+        $oldMessages['messages'][] = $m;
+        session::getInstance()->set('debugbar', $oldMessages);
+
+        if ($saveFile) {
             $this->logToFile($m);
         }
     }
 
-    public function logSaveFile($message){
+    public function logSaveFile($message)
+    {
         $this->logToFile($message);
     }
 
-    public function logToDB($message, $type = 'insert'){
-        $user = session::getInstance()->get('user_data');
-        if ($user) {
-            $data = [];
-            $db = new Mysql();
-            $db->addData("userlog", $data);
-        } 
+    public static function logToDB($actionGuid, $actionTitle, $actionData, $actionType = 1, $actionTable)
+    {
+        $data = [
+            'guid' => functions::getInstance()->generateGuid(),
+            'actionGuid' => $actionGuid,
+            'actionTitle' => $actionTitle,
+            'actionData' => json_encode($actionData),
+            'actionType' => $actionType,
+            'actionTable' => $actionTable,
+            'userGuid' => "-",
+            'actionDate' => date('Y-m-d H:i:s'),
+            'userIP' => security::getIP(),
+            'userAgent' => security::getBrowser(),
+            'userOS' => security::getOS(),
+            'userBrowser' => security::getBrowser(),
+            'userLang' => security::getLang(),
+            'createdDate' => date('Y-m-d H:i:s'),
+            'updatedDate' => date('Y-m-d H:i:s'),
+        ];
+        $db = new Mysql();
+        $db->addData('user_actions', $data);
     }
 
-    public function logToFile($message){
+    public function logToFile($message)
+    {
         FileUploader::getInstance()->setLogFileData($message);
     }
-
 }

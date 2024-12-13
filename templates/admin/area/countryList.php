@@ -9,9 +9,9 @@
 
         use App\helpers\utils\DataTable;
 
-        $table = (new DataTable('countryTable'))
-            ->setUrl(SITE_URL . '/admin555/area/list/country')
-            ->setExportUrls(SITE_URL . '/' . ADMIN_URI . '/exportExcel', SITE_URL . '/admin555/exportPdf')
+        $table = (new DataTable('datatable'))
+            ->setUrl(SITE_URL . '/' . ADMIN_URI . '/area/list/country')
+            ->setExportUrls(SITE_URL . '/' . ADMIN_URI . '/area/list/country', SITE_URL . '/' . ADMIN_URI . '/area/list/country')
             ->addColumn(field: 'id', title: 'ID', width: 75, type: 'number', css: 'text-center')
             ->addColumn(field: 'guid', title: 'GUID', type: 'text', visible: false)
             ->addColumn(field: 'nativeName', title: 'Ülke Adı Lokal', type: 'text')
@@ -20,12 +20,11 @@
             ->addColumn(field: 'phoneCode', title: 'Telefon Kodu', type: 'text')
             ->addColumn(field: 'capital', title: 'Başkenti', type: 'text')
             ->addColumn(field: 'region', title: 'Bölge', type: 'text')
-            ->addColumn(field: 'status', title: 'Durum', type: "checkbox", render: 'function(data) { if(data == 1) { return "Aktif"; } else if(data == 0) { return "Pasif" } else if(data == 3) { return "Silinmiş" } else { return "-" }   }')
+            ->addColumn(field: 'status', title: 'Durum', type: "checkbox", render: 'function(data) { if(data == 1) { return "Aktif"; } else if(data == 0) { return "Pasif" } else if(data == 2) { return "Silinmiş" } else { return "-" }   }')
             ->setOrder('cityName', 'ASC')
             ->addButton('Yeni Ekle', 'fas fa-add', 'addNewItem', 'btn-info')
             ->addButton('Düzenle', 'fas fa-edit', 'editItem', 'btn-warning')
             ->addButton('Sil', 'fas fa-trash', 'deleteItem', 'btn-danger')
-
             ->setPageLength(TABLE_DATA_COUNT);
 
         echo $table->render();
@@ -97,7 +96,12 @@
                                 <select name="status" class="form-select mb-2">
                                     <option value="1" selected>Aktif</option>
                                     <option value="0">Pasif</option>
+                                    <option value="2">Silinmiş</option>
                                 </select>
+                            </div>
+
+                            <div class="col-12" style="max-height: 300px;">
+                                <div id="map" style="height: 300px;"></div>
                             </div>
                         </div>
                     </div>
@@ -123,33 +127,65 @@
 
 
 <script>
+    let selectedData = "";
+
     function addNewItem() {
         $('#countryModal').modal('show');
         resetForm($('#countryModal'));
+        selectedData = "";
     }
 
-    function deleteItem(selected) {
-        if (confirm('Seçili kayıtları silmek istediğinize emin misiniz?')) {
-            $.post('<?= SITE_URL ?>/<?= ADMIN_URI ?>/delete', {
-                items: selected.map(item => item.guid)
-            }).done(function(response) {
-                if (response.status === 'success') {
-                    table_cityTable.ajax.reload();
-                }
-            });
-        }
+    async function deleteItem(selected) {
+        deleteItemFunc('<?= SITE_URL ?>/<?= ADMIN_URI ?>/area/remove/country', selected, table_datatable)
     }
 
     function editItem(selected) {
         if (selected.length !== 1) {
-            alert('Lütfen düzenlemek için bir kayıt seçiniz');
+            showAlert('Lütfen düzenlemek için bir kayıt seçiniz', 'warning');
             return;
         }
-        showAlert('Seçilen Kayıt: ' + selected[0].guid, 'info');
-        // window.location.href = `<?= SITE_URL ?>/<?= ADMIN_URI ?>/edit/${selected[0].guid}`;
+        showLoading(true);
+        $.post('<?= SITE_URL ?>/<?= ADMIN_URI ?>/area/get/country/' + selected[0].guid).done(function(response) {
+            if (response.status === 'success') {
+                console.log(response);
+                selectedData = response.data.guid;
+                $('#countryModal').modal('show');
+                $('input[name=commonName]').val(response.data.commonName);
+                $('input[name=nativeName]').val(response.data.nativeName);
+                $('input[name=iso2]').val(response.data.iso2);
+                $('input[name=iso3]').val(response.data.iso3);
+                $('input[name=currency]').val(response.data.currency);
+                $('input[name=phoneCode]').val(response.data.phoneCode);
+                $('input[name=capital]').val(response.data.capital);
+                $('input[name=region]').val(response.data.region);
+                $('input[name=subRegion]').val(response.data.subRegion);
+                $('input[name=languages]').val(response.data.languages);
+                $('input[name=latLng]').val(response.data.latLng);
+                $('select[name=status]').val(response.data.status);
+
+                if (response.data.latLng.length > 0) {
+                    let latLng = response.data.latLng.split(',');
+                    let lat = parseFloat(latLng[0]);
+                    let lng = parseFloat(latLng[1]);
+                    var map = new google.maps.Map(document.getElementById("map"), {
+                        center: { lat: lat, lng: lng },
+                        zoom: 3
+                    });
+                    var marker = new google.maps.Marker({
+                        position: { lat: lat, lng: lng },
+                        map: map
+                    });
+                }
+
+
+            } else {
+                showAlert(response.message, response.status);
+            }
+        });
+        showLoading(false);
     }
 </script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfOs48TpyxrcKSsLv926_L-0HgvILsWGs&callback=map"></script>
 
 <script>
     function saveItem() {
@@ -167,6 +203,7 @@
         data.latLng = $('input[name=latLng]').val();
         data.status = $('select[name=status]').val();
         data.csrf_token = $('input[id=csrf_token]').val();
+        data.guid = selectedData;
 
         let warning = false;
         if (data.commonName.length === 0) {
@@ -182,10 +219,11 @@
 
         if (!warning) {
             showLoading(true);
-            $.post('<?= SITE_URL ?>/<?= ADMIN_URI ?>/area/add/country', data).done(function(response) {
+            let type = selectedData.length === 0 ? 'add' : 'edit';
+            $.post('<?= SITE_URL ?>/<?= ADMIN_URI ?>/area/' + type + '/country', data).done(function(response) {
                 if (response.status === 'success') {
                     showAlert(response.message, response.status);
-                    table_countryTable.ajax.reload();
+                    table_datatable.ajax.reload();
                     $('#countryModal').modal('hide');
                 } else {
                     showAlert(response.message, response.status);

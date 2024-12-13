@@ -1,0 +1,6778 @@
+[
+    {
+        "id": "1",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Seyhan",
+        "slug": "seyhan"
+    },
+    {
+        "id": "2",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Yüreğir",
+        "slug": "yuregir"
+    },
+    {
+        "id": "3",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Sarıçam",
+        "slug": "saricam"
+    },
+    {
+        "id": "4",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Çukurova",
+        "slug": "cukurova"
+    },
+    {
+        "id": "5",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Aladağ(Karsantı)",
+        "slug": "aladagkarsanti"
+    },
+    {
+        "id": "6",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Ceyhan",
+        "slug": "ceyhan"
+    },
+    {
+        "id": "7",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Feke",
+        "slug": "feke"
+    },
+    {
+        "id": "8",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "İmamoğlu",
+        "slug": "imamoglu"
+    },
+    {
+        "id": "9",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Karaisalı",
+        "slug": "karaisali"
+    },
+    {
+        "id": "10",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Karataş",
+        "slug": "karatas"
+    },
+    {
+        "id": "11",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Kozan",
+        "slug": "kozan"
+    },
+    {
+        "id": "12",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Pozantı",
+        "slug": "pozanti"
+    },
+    {
+        "id": "13",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Saimbeyli",
+        "slug": "saimbeyli"
+    },
+    {
+        "id": "14",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Tufanbeyli",
+        "slug": "tufanbeyli"
+    },
+    {
+        "id": "15",
+        "country_id": "227",
+        "city_id": "1",
+        "name": "Yumurtalık",
+        "slug": "yumurtalik"
+    },
+    {
+        "id": "16",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Adıyaman",
+        "slug": "adiyaman"
+    },
+    {
+        "id": "17",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Besni",
+        "slug": "besni"
+    },
+    {
+        "id": "18",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Çelikhan",
+        "slug": "celikhan"
+    },
+    {
+        "id": "19",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Gerger",
+        "slug": "gerger"
+    },
+    {
+        "id": "20",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Gölbaşı",
+        "slug": "golbasi"
+    },
+    {
+        "id": "21",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Kahta",
+        "slug": "kahta"
+    },
+    {
+        "id": "22",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Samsat",
+        "slug": "samsat"
+    },
+    {
+        "id": "23",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Sincik",
+        "slug": "sincik"
+    },
+    {
+        "id": "24",
+        "country_id": "227",
+        "city_id": "2",
+        "name": "Tut",
+        "slug": "tut"
+    },
+    {
+        "id": "25",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Afyonkarahisar",
+        "slug": "afyonkarahisar"
+    },
+    {
+        "id": "26",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Başmakçı",
+        "slug": "basmakci"
+    },
+    {
+        "id": "27",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Bayat",
+        "slug": "bayat"
+    },
+    {
+        "id": "28",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Bolvadin",
+        "slug": "bolvadin"
+    },
+    {
+        "id": "29",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Çay",
+        "slug": "cay"
+    },
+    {
+        "id": "30",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Çobanlar",
+        "slug": "cobanlar"
+    },
+    {
+        "id": "31",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Dazkırı",
+        "slug": "dazkiri"
+    },
+    {
+        "id": "32",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Dinar",
+        "slug": "dinar"
+    },
+    {
+        "id": "33",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Emirdağ",
+        "slug": "emirdag"
+    },
+    {
+        "id": "34",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Evciler",
+        "slug": "evciler"
+    },
+    {
+        "id": "35",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Hocalar",
+        "slug": "hocalar"
+    },
+    {
+        "id": "36",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "İhsaniye",
+        "slug": "ihsaniye"
+    },
+    {
+        "id": "37",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "İscehisar",
+        "slug": "iscehisar"
+    },
+    {
+        "id": "38",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Kızılören",
+        "slug": "kiziloren"
+    },
+    {
+        "id": "39",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Sandıklı",
+        "slug": "sandikli"
+    },
+    {
+        "id": "40",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Sincanlı(Sinanpaşa)",
+        "slug": "sincanlisinanpasa"
+    },
+    {
+        "id": "41",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Sultandağı",
+        "slug": "sultandagi"
+    },
+    {
+        "id": "42",
+        "country_id": "227",
+        "city_id": "3",
+        "name": "Şuhut",
+        "slug": "suhut"
+    },
+    {
+        "id": "43",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Ağrı",
+        "slug": "agri"
+    },
+    {
+        "id": "44",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Diyadin",
+        "slug": "diyadin"
+    },
+    {
+        "id": "45",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Doğubeyazıt",
+        "slug": "dogubeyazit"
+    },
+    {
+        "id": "46",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Eleşkirt",
+        "slug": "eleskirt"
+    },
+    {
+        "id": "47",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Hamur",
+        "slug": "hamur"
+    },
+    {
+        "id": "48",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Patnos",
+        "slug": "patnos"
+    },
+    {
+        "id": "49",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Taşlıçay",
+        "slug": "taslicay"
+    },
+    {
+        "id": "50",
+        "country_id": "227",
+        "city_id": "4",
+        "name": "Tutak",
+        "slug": "tutak"
+    },
+    {
+        "id": "51",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Amasya",
+        "slug": "amasya"
+    },
+    {
+        "id": "52",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Göynücek",
+        "slug": "goynucek"
+    },
+    {
+        "id": "53",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Gümüşhacıköy",
+        "slug": "gumushacikoy"
+    },
+    {
+        "id": "54",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Hamamözü",
+        "slug": "hamamozu"
+    },
+    {
+        "id": "55",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Merzifon",
+        "slug": "merzifon"
+    },
+    {
+        "id": "56",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Suluova",
+        "slug": "suluova"
+    },
+    {
+        "id": "57",
+        "country_id": "227",
+        "city_id": "5",
+        "name": "Taşova",
+        "slug": "tasova"
+    },
+    {
+        "id": "58",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Altındağ",
+        "slug": "altindag"
+    },
+    {
+        "id": "59",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Çankaya",
+        "slug": "cankaya"
+    },
+    {
+        "id": "60",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Etimesgut",
+        "slug": "etimesgut"
+    },
+    {
+        "id": "61",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Keçiören",
+        "slug": "kecioren"
+    },
+    {
+        "id": "62",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Mamak",
+        "slug": "mamak"
+    },
+    {
+        "id": "63",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Sincan",
+        "slug": "sincan"
+    },
+    {
+        "id": "64",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Yenimahalle",
+        "slug": "yenimahalle"
+    },
+    {
+        "id": "65",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Gölbaşı",
+        "slug": "golbasi"
+    },
+    {
+        "id": "66",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Pursaklar",
+        "slug": "pursaklar"
+    },
+    {
+        "id": "67",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Akyurt",
+        "slug": "akyurt"
+    },
+    {
+        "id": "68",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Ayaş",
+        "slug": "ayas"
+    },
+    {
+        "id": "69",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Bala",
+        "slug": "bala"
+    },
+    {
+        "id": "70",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Beypazarı",
+        "slug": "beypazari"
+    },
+    {
+        "id": "71",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Çamlıdere",
+        "slug": "camlidere"
+    },
+    {
+        "id": "72",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Çubuk",
+        "slug": "cubuk"
+    },
+    {
+        "id": "73",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Elmadağ",
+        "slug": "elmadag"
+    },
+    {
+        "id": "74",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Evren",
+        "slug": "evren"
+    },
+    {
+        "id": "75",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Güdül",
+        "slug": "gudul"
+    },
+    {
+        "id": "76",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Haymana",
+        "slug": "haymana"
+    },
+    {
+        "id": "77",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Kalecik",
+        "slug": "kalecik"
+    },
+    {
+        "id": "78",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Kazan",
+        "slug": "kazan"
+    },
+    {
+        "id": "79",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Kızılcahamam",
+        "slug": "kizilcahamam"
+    },
+    {
+        "id": "80",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Nallıhan",
+        "slug": "nallihan"
+    },
+    {
+        "id": "81",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Polatlı",
+        "slug": "polatli"
+    },
+    {
+        "id": "82",
+        "country_id": "227",
+        "city_id": "6",
+        "name": "Şereflikoçhisar",
+        "slug": "sereflikochisar"
+    },
+    {
+        "id": "83",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Muratpaşa",
+        "slug": "muratpasa"
+    },
+    {
+        "id": "84",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kepez",
+        "slug": "kepez"
+    },
+    {
+        "id": "85",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Konyaaltı",
+        "slug": "konyaalti"
+    },
+    {
+        "id": "86",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Aksu",
+        "slug": "aksu"
+    },
+    {
+        "id": "87",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Döşemealtı",
+        "slug": "dosemealti"
+    },
+    {
+        "id": "88",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Akseki",
+        "slug": "akseki"
+    },
+    {
+        "id": "89",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Alanya",
+        "slug": "alanya"
+    },
+    {
+        "id": "90",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Elmalı",
+        "slug": "elmali"
+    },
+    {
+        "id": "91",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Finike",
+        "slug": "finike"
+    },
+    {
+        "id": "92",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Gazipaşa",
+        "slug": "gazipasa"
+    },
+    {
+        "id": "93",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Gündoğmuş",
+        "slug": "gundogmus"
+    },
+    {
+        "id": "94",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "İbradı(Aydınkent)",
+        "slug": "ibradiaydinkent"
+    },
+    {
+        "id": "95",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kale(Demre)",
+        "slug": "kaledemre"
+    },
+    {
+        "id": "96",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kaş",
+        "slug": "kas"
+    },
+    {
+        "id": "97",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kemer",
+        "slug": "kemer"
+    },
+    {
+        "id": "98",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Korkuteli",
+        "slug": "korkuteli"
+    },
+    {
+        "id": "99",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kumluca",
+        "slug": "kumluca"
+    },
+    {
+        "id": "100",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Manavgat",
+        "slug": "manavgat"
+    },
+    {
+        "id": "101",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Serik",
+        "slug": "serik"
+    },
+    {
+        "id": "102",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Artvin",
+        "slug": "artvin"
+    },
+    {
+        "id": "103",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Ardanuç",
+        "slug": "ardanuc"
+    },
+    {
+        "id": "104",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Arhavi",
+        "slug": "arhavi"
+    },
+    {
+        "id": "105",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Borçka",
+        "slug": "borcka"
+    },
+    {
+        "id": "106",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Hopa",
+        "slug": "hopa"
+    },
+    {
+        "id": "107",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Murgul(Göktaş)",
+        "slug": "murgulgoktas"
+    },
+    {
+        "id": "108",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Şavşat",
+        "slug": "savsat"
+    },
+    {
+        "id": "109",
+        "country_id": "227",
+        "city_id": "8",
+        "name": "Yusufeli",
+        "slug": "yusufeli"
+    },
+    {
+        "id": "110",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Aydın",
+        "slug": "aydin"
+    },
+    {
+        "id": "111",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Bozdoğan",
+        "slug": "bozdogan"
+    },
+    {
+        "id": "112",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Buharkent(Çubukdağı)",
+        "slug": "buharkentcubukdagi"
+    },
+    {
+        "id": "113",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Çine",
+        "slug": "cine"
+    },
+    {
+        "id": "114",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Germencik",
+        "slug": "germencik"
+    },
+    {
+        "id": "115",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "İncirliova",
+        "slug": "incirliova"
+    },
+    {
+        "id": "116",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Karacasu",
+        "slug": "karacasu"
+    },
+    {
+        "id": "117",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Karpuzlu",
+        "slug": "karpuzlu"
+    },
+    {
+        "id": "118",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Koçarlı",
+        "slug": "kocarli"
+    },
+    {
+        "id": "119",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Köşk",
+        "slug": "kosk"
+    },
+    {
+        "id": "120",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Kuşadası",
+        "slug": "kusadasi"
+    },
+    {
+        "id": "121",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Kuyucak",
+        "slug": "kuyucak"
+    },
+    {
+        "id": "122",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Nazilli",
+        "slug": "nazilli"
+    },
+    {
+        "id": "123",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Söke",
+        "slug": "soke"
+    },
+    {
+        "id": "124",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Sultanhisar",
+        "slug": "sultanhisar"
+    },
+    {
+        "id": "125",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Didim",
+        "slug": "didimyenihisar"
+    },
+    {
+        "id": "126",
+        "country_id": "227",
+        "city_id": "9",
+        "name": "Yenipazar",
+        "slug": "yenipazar"
+    },
+    {
+        "id": "127",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Balıkesir",
+        "slug": "balikesir"
+    },
+    {
+        "id": "128",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Ayvalık",
+        "slug": "ayvalik"
+    },
+    {
+        "id": "129",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Balya",
+        "slug": "balya"
+    },
+    {
+        "id": "130",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Bandırma",
+        "slug": "bandirma"
+    },
+    {
+        "id": "131",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Bigadiç",
+        "slug": "bigadic"
+    },
+    {
+        "id": "132",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Burhaniye",
+        "slug": "burhaniye"
+    },
+    {
+        "id": "133",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Dursunbey",
+        "slug": "dursunbey"
+    },
+    {
+        "id": "134",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Edremit",
+        "slug": "edremit"
+    },
+    {
+        "id": "135",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Erdek",
+        "slug": "erdek"
+    },
+    {
+        "id": "136",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Gömeç",
+        "slug": "gomec"
+    },
+    {
+        "id": "137",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Gönen",
+        "slug": "gonen"
+    },
+    {
+        "id": "138",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Havran",
+        "slug": "havran"
+    },
+    {
+        "id": "139",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "İvrindi",
+        "slug": "ivrindi"
+    },
+    {
+        "id": "140",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Kepsut",
+        "slug": "kepsut"
+    },
+    {
+        "id": "141",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Manyas",
+        "slug": "manyas"
+    },
+    {
+        "id": "142",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Marmara",
+        "slug": "marmara"
+    },
+    {
+        "id": "143",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Savaştepe",
+        "slug": "savastepe"
+    },
+    {
+        "id": "144",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Sındırgı",
+        "slug": "sindirgi"
+    },
+    {
+        "id": "145",
+        "country_id": "227",
+        "city_id": "10",
+        "name": "Susurluk",
+        "slug": "susurluk"
+    },
+    {
+        "id": "146",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Bilecik",
+        "slug": "bilecik"
+    },
+    {
+        "id": "147",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Bozüyük",
+        "slug": "bozuyuk"
+    },
+    {
+        "id": "148",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Gölpazarı",
+        "slug": "golpazari"
+    },
+    {
+        "id": "149",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "İnhisar",
+        "slug": "inhisar"
+    },
+    {
+        "id": "150",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Osmaneli",
+        "slug": "osmaneli"
+    },
+    {
+        "id": "151",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Pazaryeri",
+        "slug": "pazaryeri"
+    },
+    {
+        "id": "152",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Söğüt",
+        "slug": "sogut"
+    },
+    {
+        "id": "153",
+        "country_id": "227",
+        "city_id": "11",
+        "name": "Yenipazar",
+        "slug": "yenipazar"
+    },
+    {
+        "id": "154",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Bingöl",
+        "slug": "bingol"
+    },
+    {
+        "id": "155",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Adaklı",
+        "slug": "adakli"
+    },
+    {
+        "id": "156",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Genç",
+        "slug": "genc"
+    },
+    {
+        "id": "157",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Karlıova",
+        "slug": "karliova"
+    },
+    {
+        "id": "158",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Kığı",
+        "slug": "kigi"
+    },
+    {
+        "id": "159",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Solhan",
+        "slug": "solhan"
+    },
+    {
+        "id": "160",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Yayladere",
+        "slug": "yayladere"
+    },
+    {
+        "id": "161",
+        "country_id": "227",
+        "city_id": "12",
+        "name": "Yedisu",
+        "slug": "yedisu"
+    },
+    {
+        "id": "162",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Bitlis",
+        "slug": "bitlis"
+    },
+    {
+        "id": "163",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Adilcevaz",
+        "slug": "adilcevaz"
+    },
+    {
+        "id": "164",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Ahlat",
+        "slug": "ahlat"
+    },
+    {
+        "id": "165",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Güroymak",
+        "slug": "guroymak"
+    },
+    {
+        "id": "166",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Hizan",
+        "slug": "hizan"
+    },
+    {
+        "id": "167",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Mutki",
+        "slug": "mutki"
+    },
+    {
+        "id": "168",
+        "country_id": "227",
+        "city_id": "13",
+        "name": "Tatvan",
+        "slug": "tatvan"
+    },
+    {
+        "id": "169",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Bolu",
+        "slug": "bolu"
+    },
+    {
+        "id": "170",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Dörtdivan",
+        "slug": "dortdivan"
+    },
+    {
+        "id": "171",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Gerede",
+        "slug": "gerede"
+    },
+    {
+        "id": "172",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Göynük",
+        "slug": "goynuk"
+    },
+    {
+        "id": "173",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Kıbrıscık",
+        "slug": "kibriscik"
+    },
+    {
+        "id": "174",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Mengen",
+        "slug": "mengen"
+    },
+    {
+        "id": "175",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Mudurnu",
+        "slug": "mudurnu"
+    },
+    {
+        "id": "176",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Seben",
+        "slug": "seben"
+    },
+    {
+        "id": "177",
+        "country_id": "227",
+        "city_id": "14",
+        "name": "Yeniçağa",
+        "slug": "yenicaga"
+    },
+    {
+        "id": "178",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Burdur",
+        "slug": "burdur"
+    },
+    {
+        "id": "179",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Ağlasun",
+        "slug": "aglasun"
+    },
+    {
+        "id": "180",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Altınyayla(Dirmil)",
+        "slug": "altinyayladirmil"
+    },
+    {
+        "id": "181",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Bucak",
+        "slug": "bucak"
+    },
+    {
+        "id": "182",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Çavdır",
+        "slug": "cavdir"
+    },
+    {
+        "id": "183",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Çeltikçi",
+        "slug": "celtikci"
+    },
+    {
+        "id": "184",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Gölhisar",
+        "slug": "golhisar"
+    },
+    {
+        "id": "185",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Karamanlı",
+        "slug": "karamanli"
+    },
+    {
+        "id": "186",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Kemer",
+        "slug": "kemer"
+    },
+    {
+        "id": "187",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Tefenni",
+        "slug": "tefenni"
+    },
+    {
+        "id": "188",
+        "country_id": "227",
+        "city_id": "15",
+        "name": "Yeşilova",
+        "slug": "yesilova"
+    },
+    {
+        "id": "189",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Nilüfer",
+        "slug": "nilufer"
+    },
+    {
+        "id": "190",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Osmangazi",
+        "slug": "osmangazi"
+    },
+    {
+        "id": "191",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Yıldırım",
+        "slug": "yildirim"
+    },
+    {
+        "id": "192",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Büyükorhan",
+        "slug": "buyukorhan"
+    },
+    {
+        "id": "193",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Gemlik",
+        "slug": "gemlik"
+    },
+    {
+        "id": "194",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Gürsu",
+        "slug": "gursu"
+    },
+    {
+        "id": "195",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Harmancık",
+        "slug": "harmancik"
+    },
+    {
+        "id": "196",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "İnegöl",
+        "slug": "inegol"
+    },
+    {
+        "id": "197",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "İznik",
+        "slug": "iznik"
+    },
+    {
+        "id": "198",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Karacabey",
+        "slug": "karacabey"
+    },
+    {
+        "id": "199",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Keles",
+        "slug": "keles"
+    },
+    {
+        "id": "200",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Kestel",
+        "slug": "kestel"
+    },
+    {
+        "id": "201",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Mudanya",
+        "slug": "mudanya"
+    },
+    {
+        "id": "202",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Mustafakemalpaşa",
+        "slug": "mustafakemalpasa"
+    },
+    {
+        "id": "203",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Orhaneli",
+        "slug": "orhaneli"
+    },
+    {
+        "id": "204",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Orhangazi",
+        "slug": "orhangazi"
+    },
+    {
+        "id": "205",
+        "country_id": "227",
+        "city_id": "16",
+        "name": "Yenişehir",
+        "slug": "yenisehir"
+    },
+    {
+        "id": "206",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Çanakkale",
+        "slug": "canakkale"
+    },
+    {
+        "id": "207",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Ayvacık-Assos",
+        "slug": "ayvacikassos"
+    },
+    {
+        "id": "208",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Bayramiç",
+        "slug": "bayramic"
+    },
+    {
+        "id": "209",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Biga",
+        "slug": "biga"
+    },
+    {
+        "id": "210",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Bozcaada",
+        "slug": "bozcaada"
+    },
+    {
+        "id": "211",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Çan",
+        "slug": "can"
+    },
+    {
+        "id": "212",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Eceabat",
+        "slug": "eceabat"
+    },
+    {
+        "id": "213",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Ezine",
+        "slug": "ezine"
+    },
+    {
+        "id": "214",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Gelibolu",
+        "slug": "gelibolu"
+    },
+    {
+        "id": "215",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Gökçeada(İmroz)",
+        "slug": "gokceadaimroz"
+    },
+    {
+        "id": "216",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Lapseki",
+        "slug": "lapseki"
+    },
+    {
+        "id": "217",
+        "country_id": "227",
+        "city_id": "17",
+        "name": "Yenice",
+        "slug": "yenice"
+    },
+    {
+        "id": "218",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Çankırı",
+        "slug": "cankiri"
+    },
+    {
+        "id": "219",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Atkaracalar",
+        "slug": "atkaracalar"
+    },
+    {
+        "id": "220",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Bayramören",
+        "slug": "bayramoren"
+    },
+    {
+        "id": "221",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Çerkeş",
+        "slug": "cerkes"
+    },
+    {
+        "id": "222",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Eldivan",
+        "slug": "eldivan"
+    },
+    {
+        "id": "223",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Ilgaz",
+        "slug": "ilgaz"
+    },
+    {
+        "id": "224",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Kızılırmak",
+        "slug": "kizilirmak"
+    },
+    {
+        "id": "225",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Korgun",
+        "slug": "korgun"
+    },
+    {
+        "id": "226",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Kurşunlu",
+        "slug": "kursunlu"
+    },
+    {
+        "id": "227",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Orta",
+        "slug": "orta"
+    },
+    {
+        "id": "228",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Şabanözü",
+        "slug": "sabanozu"
+    },
+    {
+        "id": "229",
+        "country_id": "227",
+        "city_id": "18",
+        "name": "Yapraklı",
+        "slug": "yaprakli"
+    },
+    {
+        "id": "230",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Çorum",
+        "slug": "corum"
+    },
+    {
+        "id": "231",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Alaca",
+        "slug": "alaca"
+    },
+    {
+        "id": "232",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Bayat",
+        "slug": "bayat"
+    },
+    {
+        "id": "233",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Boğazkale",
+        "slug": "bogazkale"
+    },
+    {
+        "id": "234",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Dodurga",
+        "slug": "dodurga"
+    },
+    {
+        "id": "235",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "İskilip",
+        "slug": "iskilip"
+    },
+    {
+        "id": "236",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Kargı",
+        "slug": "kargi"
+    },
+    {
+        "id": "237",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Laçin",
+        "slug": "lacin"
+    },
+    {
+        "id": "238",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Mecitözü",
+        "slug": "mecitozu"
+    },
+    {
+        "id": "239",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Oğuzlar(Karaören)",
+        "slug": "oguzlarkaraoren"
+    },
+    {
+        "id": "240",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Ortaköy",
+        "slug": "ortakoy"
+    },
+    {
+        "id": "241",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Osmancık",
+        "slug": "osmancik"
+    },
+    {
+        "id": "242",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Sungurlu",
+        "slug": "sungurlu"
+    },
+    {
+        "id": "243",
+        "country_id": "227",
+        "city_id": "19",
+        "name": "Uğurludağ",
+        "slug": "ugurludag"
+    },
+    {
+        "id": "244",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Denizli",
+        "slug": "denizli"
+    },
+    {
+        "id": "245",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Acıpayam",
+        "slug": "acipayam"
+    },
+    {
+        "id": "246",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Akköy",
+        "slug": "akkoy"
+    },
+    {
+        "id": "247",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Babadağ",
+        "slug": "babadag"
+    },
+    {
+        "id": "248",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Baklan",
+        "slug": "baklan"
+    },
+    {
+        "id": "249",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Bekilli",
+        "slug": "bekilli"
+    },
+    {
+        "id": "250",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Beyağaç",
+        "slug": "beyagac"
+    },
+    {
+        "id": "251",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Bozkurt",
+        "slug": "bozkurt"
+    },
+    {
+        "id": "252",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Buldan",
+        "slug": "buldan"
+    },
+    {
+        "id": "253",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Çal",
+        "slug": "cal"
+    },
+    {
+        "id": "254",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Çameli",
+        "slug": "cameli"
+    },
+    {
+        "id": "255",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Çardak",
+        "slug": "cardak"
+    },
+    {
+        "id": "256",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Çivril",
+        "slug": "civril"
+    },
+    {
+        "id": "257",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Güney",
+        "slug": "guney"
+    },
+    {
+        "id": "258",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Honaz",
+        "slug": "honaz"
+    },
+    {
+        "id": "259",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Kale",
+        "slug": "kale"
+    },
+    {
+        "id": "260",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Sarayköy",
+        "slug": "saraykoy"
+    },
+    {
+        "id": "261",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Serinhisar",
+        "slug": "serinhisar"
+    },
+    {
+        "id": "262",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Tavas",
+        "slug": "tavas"
+    },
+    {
+        "id": "263",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Sur",
+        "slug": "sur"
+    },
+    {
+        "id": "264",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Bağlar",
+        "slug": "baglar"
+    },
+    {
+        "id": "265",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Yenişehir",
+        "slug": "yenisehir"
+    },
+    {
+        "id": "266",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Kayapınar",
+        "slug": "kayapinar"
+    },
+    {
+        "id": "267",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Bismil",
+        "slug": "bismil"
+    },
+    {
+        "id": "268",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Çermik",
+        "slug": "cermik"
+    },
+    {
+        "id": "269",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Çınar",
+        "slug": "cinar"
+    },
+    {
+        "id": "270",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Çüngüş",
+        "slug": "cungus"
+    },
+    {
+        "id": "271",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Dicle",
+        "slug": "dicle"
+    },
+    {
+        "id": "272",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Eğil",
+        "slug": "egil"
+    },
+    {
+        "id": "273",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Ergani",
+        "slug": "ergani"
+    },
+    {
+        "id": "274",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Hani",
+        "slug": "hani"
+    },
+    {
+        "id": "275",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Hazro",
+        "slug": "hazro"
+    },
+    {
+        "id": "276",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Kocaköy",
+        "slug": "kocakoy"
+    },
+    {
+        "id": "277",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Kulp",
+        "slug": "kulp"
+    },
+    {
+        "id": "278",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Lice",
+        "slug": "lice"
+    },
+    {
+        "id": "279",
+        "country_id": "227",
+        "city_id": "21",
+        "name": "Silvan",
+        "slug": "silvan"
+    },
+    {
+        "id": "280",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Edirne",
+        "slug": "edirne"
+    },
+    {
+        "id": "281",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Enez",
+        "slug": "enez"
+    },
+    {
+        "id": "282",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Havsa",
+        "slug": "havsa"
+    },
+    {
+        "id": "283",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "İpsala",
+        "slug": "ipsala"
+    },
+    {
+        "id": "284",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Keşan",
+        "slug": "kesan"
+    },
+    {
+        "id": "285",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Lalapaşa",
+        "slug": "lalapasa"
+    },
+    {
+        "id": "286",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Meriç",
+        "slug": "meric"
+    },
+    {
+        "id": "287",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Süleoğlu(Süloğlu)",
+        "slug": "suleoglusuloglu"
+    },
+    {
+        "id": "288",
+        "country_id": "227",
+        "city_id": "22",
+        "name": "Uzunköprü",
+        "slug": "uzunkopru"
+    },
+    {
+        "id": "289",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Elazığ",
+        "slug": "elazig"
+    },
+    {
+        "id": "290",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Ağın",
+        "slug": "agin"
+    },
+    {
+        "id": "291",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Alacakaya",
+        "slug": "alacakaya"
+    },
+    {
+        "id": "292",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Arıcak",
+        "slug": "aricak"
+    },
+    {
+        "id": "293",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Baskil",
+        "slug": "baskil"
+    },
+    {
+        "id": "294",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Karakoçan",
+        "slug": "karakocan"
+    },
+    {
+        "id": "295",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Keban",
+        "slug": "keban"
+    },
+    {
+        "id": "296",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Kovancılar",
+        "slug": "kovancilar"
+    },
+    {
+        "id": "297",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Maden",
+        "slug": "maden"
+    },
+    {
+        "id": "298",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Palu",
+        "slug": "palu"
+    },
+    {
+        "id": "299",
+        "country_id": "227",
+        "city_id": "23",
+        "name": "Sivrice",
+        "slug": "sivrice"
+    },
+    {
+        "id": "300",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Erzincan",
+        "slug": "erzincan"
+    },
+    {
+        "id": "301",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Çayırlı",
+        "slug": "cayirli"
+    },
+    {
+        "id": "302",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "İliç(Ilıç)",
+        "slug": "ilicilic"
+    },
+    {
+        "id": "303",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Kemah",
+        "slug": "kemah"
+    },
+    {
+        "id": "304",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Kemaliye",
+        "slug": "kemaliye"
+    },
+    {
+        "id": "305",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Otlukbeli",
+        "slug": "otlukbeli"
+    },
+    {
+        "id": "306",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Refahiye",
+        "slug": "refahiye"
+    },
+    {
+        "id": "307",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Tercan",
+        "slug": "tercan"
+    },
+    {
+        "id": "308",
+        "country_id": "227",
+        "city_id": "24",
+        "name": "Üzümlü",
+        "slug": "uzumlu"
+    },
+    {
+        "id": "309",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Palandöken",
+        "slug": "palandoken"
+    },
+    {
+        "id": "310",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Yakutiye",
+        "slug": "yakutiye"
+    },
+    {
+        "id": "311",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Aziziye(Ilıca)",
+        "slug": "aziziyeilica"
+    },
+    {
+        "id": "312",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Aşkale",
+        "slug": "askale"
+    },
+    {
+        "id": "313",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Çat",
+        "slug": "cat"
+    },
+    {
+        "id": "314",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Hınıs",
+        "slug": "hinis"
+    },
+    {
+        "id": "315",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Horasan",
+        "slug": "horasan"
+    },
+    {
+        "id": "316",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "İspir",
+        "slug": "ispir"
+    },
+    {
+        "id": "317",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Karaçoban",
+        "slug": "karacoban"
+    },
+    {
+        "id": "318",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Karayazı",
+        "slug": "karayazi"
+    },
+    {
+        "id": "319",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Köprüköy",
+        "slug": "koprukoy"
+    },
+    {
+        "id": "320",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Narman",
+        "slug": "narman"
+    },
+    {
+        "id": "321",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Oltu",
+        "slug": "oltu"
+    },
+    {
+        "id": "322",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Olur",
+        "slug": "olur"
+    },
+    {
+        "id": "323",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Pasinler",
+        "slug": "pasinler"
+    },
+    {
+        "id": "324",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Pazaryolu",
+        "slug": "pazaryolu"
+    },
+    {
+        "id": "325",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Şenkaya",
+        "slug": "senkaya"
+    },
+    {
+        "id": "326",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Tekman",
+        "slug": "tekman"
+    },
+    {
+        "id": "327",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Tortum",
+        "slug": "tortum"
+    },
+    {
+        "id": "328",
+        "country_id": "227",
+        "city_id": "25",
+        "name": "Uzundere",
+        "slug": "uzundere"
+    },
+    {
+        "id": "329",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Odunpazarı",
+        "slug": "odunpazari"
+    },
+    {
+        "id": "330",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Tepebaşı",
+        "slug": "tepebasi"
+    },
+    {
+        "id": "331",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Alpu",
+        "slug": "alpu"
+    },
+    {
+        "id": "332",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Beylikova",
+        "slug": "beylikova"
+    },
+    {
+        "id": "333",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Çifteler",
+        "slug": "cifteler"
+    },
+    {
+        "id": "334",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Günyüzü",
+        "slug": "gunyuzu"
+    },
+    {
+        "id": "335",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Han",
+        "slug": "han"
+    },
+    {
+        "id": "336",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "İnönü",
+        "slug": "inonu"
+    },
+    {
+        "id": "337",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Mahmudiye",
+        "slug": "mahmudiye"
+    },
+    {
+        "id": "338",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Mihalgazi",
+        "slug": "mihalgazi"
+    },
+    {
+        "id": "339",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Mihalıçcık",
+        "slug": "mihaliccik"
+    },
+    {
+        "id": "340",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Sarıcakaya",
+        "slug": "saricakaya"
+    },
+    {
+        "id": "341",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Seyitgazi",
+        "slug": "seyitgazi"
+    },
+    {
+        "id": "342",
+        "country_id": "227",
+        "city_id": "26",
+        "name": "Sivrihisar",
+        "slug": "sivrihisar"
+    },
+    {
+        "id": "343",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Şahinbey",
+        "slug": "sahinbey"
+    },
+    {
+        "id": "344",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Şehitkamil",
+        "slug": "sehitkamil"
+    },
+    {
+        "id": "345",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Oğuzeli",
+        "slug": "oguzeli"
+    },
+    {
+        "id": "346",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Araban",
+        "slug": "araban"
+    },
+    {
+        "id": "347",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "İslahiye",
+        "slug": "islahiye"
+    },
+    {
+        "id": "348",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Karkamış",
+        "slug": "karkamis"
+    },
+    {
+        "id": "349",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Nizip",
+        "slug": "nizip"
+    },
+    {
+        "id": "350",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Nurdağı",
+        "slug": "nurdagi"
+    },
+    {
+        "id": "351",
+        "country_id": "227",
+        "city_id": "27",
+        "name": "Yavuzeli",
+        "slug": "yavuzeli"
+    },
+    {
+        "id": "352",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Giresun",
+        "slug": "giresun"
+    },
+    {
+        "id": "353",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Alucra",
+        "slug": "alucra"
+    },
+    {
+        "id": "354",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Bulancak",
+        "slug": "bulancak"
+    },
+    {
+        "id": "355",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Çamoluk",
+        "slug": "camoluk"
+    },
+    {
+        "id": "356",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Çanakçı",
+        "slug": "canakci"
+    },
+    {
+        "id": "357",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Dereli",
+        "slug": "dereli"
+    },
+    {
+        "id": "358",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Doğankent",
+        "slug": "dogankent"
+    },
+    {
+        "id": "359",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Espiye",
+        "slug": "espiye"
+    },
+    {
+        "id": "360",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Eynesil",
+        "slug": "eynesil"
+    },
+    {
+        "id": "361",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Görele",
+        "slug": "gorele"
+    },
+    {
+        "id": "362",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Güce",
+        "slug": "guce"
+    },
+    {
+        "id": "363",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Keşap",
+        "slug": "kesap"
+    },
+    {
+        "id": "364",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Piraziz",
+        "slug": "piraziz"
+    },
+    {
+        "id": "365",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Şebinkarahisar",
+        "slug": "sebinkarahisar"
+    },
+    {
+        "id": "366",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Tirebolu",
+        "slug": "tirebolu"
+    },
+    {
+        "id": "367",
+        "country_id": "227",
+        "city_id": "28",
+        "name": "Yağlıdere",
+        "slug": "yaglidere"
+    },
+    {
+        "id": "368",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Gümüşhane",
+        "slug": "gumushane"
+    },
+    {
+        "id": "369",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Kelkit",
+        "slug": "kelkit"
+    },
+    {
+        "id": "370",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Köse",
+        "slug": "kose"
+    },
+    {
+        "id": "371",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Kürtün",
+        "slug": "kurtun"
+    },
+    {
+        "id": "372",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Şiran",
+        "slug": "siran"
+    },
+    {
+        "id": "373",
+        "country_id": "227",
+        "city_id": "29",
+        "name": "Torul",
+        "slug": "torul"
+    },
+    {
+        "id": "374",
+        "country_id": "227",
+        "city_id": "30",
+        "name": "Hakkari",
+        "slug": "hakkari"
+    },
+    {
+        "id": "375",
+        "country_id": "227",
+        "city_id": "30",
+        "name": "Çukurca",
+        "slug": "cukurca"
+    },
+    {
+        "id": "376",
+        "country_id": "227",
+        "city_id": "30",
+        "name": "Şemdinli",
+        "slug": "semdinli"
+    },
+    {
+        "id": "377",
+        "country_id": "227",
+        "city_id": "30",
+        "name": "Yüksekova",
+        "slug": "yuksekova"
+    },
+    {
+        "id": "378",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Antakya",
+        "slug": "antakya"
+    },
+    {
+        "id": "379",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Altınözü",
+        "slug": "altinozu"
+    },
+    {
+        "id": "380",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Belen",
+        "slug": "belen"
+    },
+    {
+        "id": "381",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Dörtyol",
+        "slug": "dortyol"
+    },
+    {
+        "id": "382",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Erzin",
+        "slug": "erzin"
+    },
+    {
+        "id": "383",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Hassa",
+        "slug": "hassa"
+    },
+    {
+        "id": "384",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "İskenderun",
+        "slug": "iskenderun"
+    },
+    {
+        "id": "385",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Kırıkhan",
+        "slug": "kirikhan"
+    },
+    {
+        "id": "386",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Kumlu",
+        "slug": "kumlu"
+    },
+    {
+        "id": "387",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Reyhanlı",
+        "slug": "reyhanli"
+    },
+    {
+        "id": "388",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Samandağ",
+        "slug": "samandag"
+    },
+    {
+        "id": "389",
+        "country_id": "227",
+        "city_id": "31",
+        "name": "Yayladağı",
+        "slug": "yayladagi"
+    },
+    {
+        "id": "390",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Isparta",
+        "slug": "isparta"
+    },
+    {
+        "id": "391",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Aksu",
+        "slug": "aksu"
+    },
+    {
+        "id": "392",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Atabey",
+        "slug": "atabey"
+    },
+    {
+        "id": "393",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Eğridir(Eğirdir)",
+        "slug": "egridiregirdir"
+    },
+    {
+        "id": "394",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Gelendost",
+        "slug": "gelendost"
+    },
+    {
+        "id": "395",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Gönen",
+        "slug": "gonen"
+    },
+    {
+        "id": "396",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Keçiborlu",
+        "slug": "keciborlu"
+    },
+    {
+        "id": "397",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Senirkent",
+        "slug": "senirkent"
+    },
+    {
+        "id": "398",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Sütçüler",
+        "slug": "sutculer"
+    },
+    {
+        "id": "399",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Şarkikaraağaç",
+        "slug": "sarkikaraagac"
+    },
+    {
+        "id": "400",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Uluborlu",
+        "slug": "uluborlu"
+    },
+    {
+        "id": "401",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Yalvaç",
+        "slug": "yalvac"
+    },
+    {
+        "id": "402",
+        "country_id": "227",
+        "city_id": "32",
+        "name": "Yenişarbademli",
+        "slug": "yenisarbademli"
+    },
+    {
+        "id": "403",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Akdeniz",
+        "slug": "akdeniz"
+    },
+    {
+        "id": "404",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Yenişehir",
+        "slug": "yenisehir"
+    },
+    {
+        "id": "405",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Toroslar",
+        "slug": "toroslar"
+    },
+    {
+        "id": "406",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Mezitli",
+        "slug": "mezitli"
+    },
+    {
+        "id": "407",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Anamur",
+        "slug": "anamur"
+    },
+    {
+        "id": "408",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Aydıncık",
+        "slug": "aydincik"
+    },
+    {
+        "id": "409",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Bozyazı",
+        "slug": "bozyazi"
+    },
+    {
+        "id": "410",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Çamlıyayla",
+        "slug": "camliyayla"
+    },
+    {
+        "id": "411",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Erdemli",
+        "slug": "erdemli"
+    },
+    {
+        "id": "412",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Gülnar(Gülpınar)",
+        "slug": "gulnargulpinar"
+    },
+    {
+        "id": "413",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Mut",
+        "slug": "mut"
+    },
+    {
+        "id": "414",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Silifke",
+        "slug": "silifke"
+    },
+    {
+        "id": "415",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Tarsus",
+        "slug": "tarsus"
+    },
+    {
+        "id": "416",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Bakırköy",
+        "slug": "bakirkoy"
+    },
+    {
+        "id": "417",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Bayrampaşa",
+        "slug": "bayrampasa"
+    },
+    {
+        "id": "418",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Beşiktaş",
+        "slug": "besiktas"
+    },
+    {
+        "id": "419",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Beyoğlu",
+        "slug": "beyoglu"
+    },
+    {
+        "id": "420",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Arnavutköy",
+        "slug": "arnavutkoy"
+    },
+    {
+        "id": "421",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Eyüp",
+        "slug": "eyup"
+    },
+    {
+        "id": "422",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Fatih",
+        "slug": "fatih"
+    },
+    {
+        "id": "423",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Gaziosmanpaşa",
+        "slug": "gaziosmanpasa"
+    },
+    {
+        "id": "424",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Kağıthane",
+        "slug": "kagithane"
+    },
+    {
+        "id": "425",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Küçükçekmece",
+        "slug": "kucukcekmece"
+    },
+    {
+        "id": "426",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Sarıyer",
+        "slug": "sariyer"
+    },
+    {
+        "id": "427",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Şişli",
+        "slug": "sisli"
+    },
+    {
+        "id": "428",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Zeytinburnu",
+        "slug": "zeytinburnu"
+    },
+    {
+        "id": "429",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Avcılar",
+        "slug": "avcilar"
+    },
+    {
+        "id": "430",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Güngören",
+        "slug": "gungoren"
+    },
+    {
+        "id": "431",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Bahçelievler",
+        "slug": "bahcelievler"
+    },
+    {
+        "id": "432",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Bağcılar",
+        "slug": "bagcilar"
+    },
+    {
+        "id": "433",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Esenler",
+        "slug": "esenler"
+    },
+    {
+        "id": "434",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Başakşehir",
+        "slug": "basaksehir"
+    },
+    {
+        "id": "435",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Beylikdüzü",
+        "slug": "beylikduzu"
+    },
+    {
+        "id": "436",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Esenyurt",
+        "slug": "esenyurt"
+    },
+    {
+        "id": "437",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Sultangazi",
+        "slug": "sultangazi"
+    },
+    {
+        "id": "438",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Adalar",
+        "slug": "adalar"
+    },
+    {
+        "id": "439",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Beykoz",
+        "slug": "beykoz"
+    },
+    {
+        "id": "440",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Kadıköy",
+        "slug": "kadikoy"
+    },
+    {
+        "id": "441",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Kartal",
+        "slug": "kartal"
+    },
+    {
+        "id": "442",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Pendik",
+        "slug": "pendik"
+    },
+    {
+        "id": "443",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Ümraniye",
+        "slug": "umraniye"
+    },
+    {
+        "id": "444",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Üsküdar",
+        "slug": "uskudar"
+    },
+    {
+        "id": "445",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Tuzla",
+        "slug": "tuzla"
+    },
+    {
+        "id": "446",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Maltepe",
+        "slug": "maltepe"
+    },
+    {
+        "id": "447",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Ataşehir",
+        "slug": "atasehir"
+    },
+    {
+        "id": "448",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Çekmeköy",
+        "slug": "cekmekoy"
+    },
+    {
+        "id": "449",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Sancaktepe",
+        "slug": "sancaktepe"
+    },
+    {
+        "id": "450",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Büyükçekmece",
+        "slug": "buyukcekmece"
+    },
+    {
+        "id": "451",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Çatalca",
+        "slug": "catalca"
+    },
+    {
+        "id": "452",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Silivri",
+        "slug": "silivri"
+    },
+    {
+        "id": "453",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Şile",
+        "slug": "sile"
+    },
+    {
+        "id": "454",
+        "country_id": "227",
+        "city_id": "34",
+        "name": "Sultanbeyli",
+        "slug": "sultanbeyli"
+    },
+    {
+        "id": "455",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Aliağa",
+        "slug": "aliaga"
+    },
+    {
+        "id": "456",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Balçova",
+        "slug": "balcova"
+    },
+    {
+        "id": "457",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Bayındır",
+        "slug": "bayindir"
+    },
+    {
+        "id": "458",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Bornova",
+        "slug": "bornova"
+    },
+    {
+        "id": "459",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Buca",
+        "slug": "buca"
+    },
+    {
+        "id": "460",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Çiğli",
+        "slug": "cigli"
+    },
+    {
+        "id": "461",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Foça",
+        "slug": "foca"
+    },
+    {
+        "id": "462",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Gaziemir",
+        "slug": "gaziemir"
+    },
+    {
+        "id": "463",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Güzelbahçe",
+        "slug": "guzelbahce"
+    },
+    {
+        "id": "464",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Karşıyaka",
+        "slug": "karsiyaka"
+    },
+    {
+        "id": "465",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Kemalpaşa",
+        "slug": "kemalpasa"
+    },
+    {
+        "id": "466",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Konak",
+        "slug": "konak"
+    },
+    {
+        "id": "467",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Cumaovası(Menderes)",
+        "slug": "cumaovasimenderes"
+    },
+    {
+        "id": "468",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Menemen",
+        "slug": "menemen"
+    },
+    {
+        "id": "469",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Narlıdere",
+        "slug": "narlidere"
+    },
+    {
+        "id": "470",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Seferihisar",
+        "slug": "seferihisar"
+    },
+    {
+        "id": "471",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Selçuk",
+        "slug": "selcuk"
+    },
+    {
+        "id": "472",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Torbalı",
+        "slug": "torbali"
+    },
+    {
+        "id": "473",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Urla",
+        "slug": "urla"
+    },
+    {
+        "id": "474",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Bayraklı",
+        "slug": "bayrakli"
+    },
+    {
+        "id": "475",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Karabağlar",
+        "slug": "karabaglar"
+    },
+    {
+        "id": "476",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Bergama",
+        "slug": "bergama"
+    },
+    {
+        "id": "477",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Beydağ",
+        "slug": "beydag"
+    },
+    {
+        "id": "478",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Çeşme",
+        "slug": "cesme"
+    },
+    {
+        "id": "479",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Dikili",
+        "slug": "dikili"
+    },
+    {
+        "id": "480",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Karaburun",
+        "slug": "karaburun"
+    },
+    {
+        "id": "481",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Kınık",
+        "slug": "kinik"
+    },
+    {
+        "id": "482",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Kiraz",
+        "slug": "kiraz"
+    },
+    {
+        "id": "483",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Ödemiş",
+        "slug": "odemis"
+    },
+    {
+        "id": "484",
+        "country_id": "227",
+        "city_id": "35",
+        "name": "Tire",
+        "slug": "tire"
+    },
+    {
+        "id": "485",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Kars",
+        "slug": "kars"
+    },
+    {
+        "id": "486",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Akyaka",
+        "slug": "akyaka"
+    },
+    {
+        "id": "487",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Arpaçay",
+        "slug": "arpacay"
+    },
+    {
+        "id": "488",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Digor",
+        "slug": "digor"
+    },
+    {
+        "id": "489",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Kağızman",
+        "slug": "kagizman"
+    },
+    {
+        "id": "490",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Sarıkamış",
+        "slug": "sarikamis"
+    },
+    {
+        "id": "491",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Selim",
+        "slug": "selim"
+    },
+    {
+        "id": "492",
+        "country_id": "227",
+        "city_id": "36",
+        "name": "Susuz",
+        "slug": "susuz"
+    },
+    {
+        "id": "493",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Kastamonu",
+        "slug": "kastamonu"
+    },
+    {
+        "id": "494",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Abana",
+        "slug": "abana"
+    },
+    {
+        "id": "495",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Ağlı",
+        "slug": "agli"
+    },
+    {
+        "id": "496",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Araç",
+        "slug": "arac"
+    },
+    {
+        "id": "497",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Azdavay",
+        "slug": "azdavay"
+    },
+    {
+        "id": "498",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Bozkurt",
+        "slug": "bozkurt"
+    },
+    {
+        "id": "499",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Cide",
+        "slug": "cide"
+    },
+    {
+        "id": "500",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Çatalzeytin",
+        "slug": "catalzeytin"
+    },
+    {
+        "id": "501",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Daday",
+        "slug": "daday"
+    },
+    {
+        "id": "502",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Devrekani",
+        "slug": "devrekani"
+    },
+    {
+        "id": "503",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Doğanyurt",
+        "slug": "doganyurt"
+    },
+    {
+        "id": "504",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Hanönü(Gökçeağaç)",
+        "slug": "hanonugokceagac"
+    },
+    {
+        "id": "505",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "İhsangazi",
+        "slug": "ihsangazi"
+    },
+    {
+        "id": "506",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "İnebolu",
+        "slug": "inebolu"
+    },
+    {
+        "id": "507",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Küre",
+        "slug": "kure"
+    },
+    {
+        "id": "508",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Pınarbaşı",
+        "slug": "pinarbasi"
+    },
+    {
+        "id": "509",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Seydiler",
+        "slug": "seydiler"
+    },
+    {
+        "id": "510",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Şenpazar",
+        "slug": "senpazar"
+    },
+    {
+        "id": "511",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Taşköprü",
+        "slug": "taskopru"
+    },
+    {
+        "id": "512",
+        "country_id": "227",
+        "city_id": "37",
+        "name": "Tosya",
+        "slug": "tosya"
+    },
+    {
+        "id": "513",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Kocasinan",
+        "slug": "kocasinan"
+    },
+    {
+        "id": "514",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Melikgazi",
+        "slug": "melikgazi"
+    },
+    {
+        "id": "515",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Talas",
+        "slug": "talas"
+    },
+    {
+        "id": "516",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Akkışla",
+        "slug": "akkisla"
+    },
+    {
+        "id": "517",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Bünyan",
+        "slug": "bunyan"
+    },
+    {
+        "id": "518",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Develi",
+        "slug": "develi"
+    },
+    {
+        "id": "519",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Felahiye",
+        "slug": "felahiye"
+    },
+    {
+        "id": "520",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Hacılar",
+        "slug": "hacilar"
+    },
+    {
+        "id": "521",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "İncesu",
+        "slug": "incesu"
+    },
+    {
+        "id": "522",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Özvatan(Çukur)",
+        "slug": "ozvatancukur"
+    },
+    {
+        "id": "523",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Pınarbaşı",
+        "slug": "pinarbasi"
+    },
+    {
+        "id": "524",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Sarıoğlan",
+        "slug": "sarioglan"
+    },
+    {
+        "id": "525",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Sarız",
+        "slug": "sariz"
+    },
+    {
+        "id": "526",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Tomarza",
+        "slug": "tomarza"
+    },
+    {
+        "id": "527",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Yahyalı",
+        "slug": "yahyali"
+    },
+    {
+        "id": "528",
+        "country_id": "227",
+        "city_id": "38",
+        "name": "Yeşilhisar",
+        "slug": "yesilhisar"
+    },
+    {
+        "id": "529",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Kırklareli",
+        "slug": "kirklareli"
+    },
+    {
+        "id": "530",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Babaeski",
+        "slug": "babaeski"
+    },
+    {
+        "id": "531",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Demirköy",
+        "slug": "demirkoy"
+    },
+    {
+        "id": "532",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Kofçaz",
+        "slug": "kofcaz"
+    },
+    {
+        "id": "533",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Lüleburgaz",
+        "slug": "luleburgaz"
+    },
+    {
+        "id": "534",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Pehlivanköy",
+        "slug": "pehlivankoy"
+    },
+    {
+        "id": "535",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Pınarhisar",
+        "slug": "pinarhisar"
+    },
+    {
+        "id": "536",
+        "country_id": "227",
+        "city_id": "39",
+        "name": "Vize",
+        "slug": "vize"
+    },
+    {
+        "id": "537",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Kırşehir",
+        "slug": "kirsehir"
+    },
+    {
+        "id": "538",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Akçakent",
+        "slug": "akcakent"
+    },
+    {
+        "id": "539",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Akpınar",
+        "slug": "akpinar"
+    },
+    {
+        "id": "540",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Boztepe",
+        "slug": "boztepe"
+    },
+    {
+        "id": "541",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Çiçekdağı",
+        "slug": "cicekdagi"
+    },
+    {
+        "id": "542",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Kaman",
+        "slug": "kaman"
+    },
+    {
+        "id": "543",
+        "country_id": "227",
+        "city_id": "40",
+        "name": "Mucur",
+        "slug": "mucur"
+    },
+    {
+        "id": "544",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "İzmit",
+        "slug": "izmit"
+    },
+    {
+        "id": "545",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Başiskele",
+        "slug": "basiskele"
+    },
+    {
+        "id": "546",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Çayırova",
+        "slug": "cayirova"
+    },
+    {
+        "id": "547",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Darıca",
+        "slug": "darica"
+    },
+    {
+        "id": "548",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Dilovası",
+        "slug": "dilovasi"
+    },
+    {
+        "id": "549",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Kartepe",
+        "slug": "kartepe"
+    },
+    {
+        "id": "550",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Gebze",
+        "slug": "gebze"
+    },
+    {
+        "id": "551",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Gölcük",
+        "slug": "golcuk"
+    },
+    {
+        "id": "552",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Kandıra",
+        "slug": "kandira"
+    },
+    {
+        "id": "553",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Karamürsel",
+        "slug": "karamursel"
+    },
+    {
+        "id": "554",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Körfez",
+        "slug": "korfez"
+    },
+    {
+        "id": "555",
+        "country_id": "227",
+        "city_id": "41",
+        "name": "Derince",
+        "slug": "derince"
+    },
+    {
+        "id": "556",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Karatay",
+        "slug": "karatay"
+    },
+    {
+        "id": "557",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Meram",
+        "slug": "meram"
+    },
+    {
+        "id": "558",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Selçuklu",
+        "slug": "selcuklu"
+    },
+    {
+        "id": "559",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Ahırlı",
+        "slug": "ahirli"
+    },
+    {
+        "id": "560",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Akören",
+        "slug": "akoren"
+    },
+    {
+        "id": "561",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Akşehir",
+        "slug": "aksehir"
+    },
+    {
+        "id": "562",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Altınekin",
+        "slug": "altinekin"
+    },
+    {
+        "id": "563",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Beyşehir",
+        "slug": "beysehir"
+    },
+    {
+        "id": "564",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Bozkır",
+        "slug": "bozkir"
+    },
+    {
+        "id": "565",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Cihanbeyli",
+        "slug": "cihanbeyli"
+    },
+    {
+        "id": "566",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Çeltik",
+        "slug": "celtik"
+    },
+    {
+        "id": "567",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Çumra",
+        "slug": "cumra"
+    },
+    {
+        "id": "568",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Derbent",
+        "slug": "derbent"
+    },
+    {
+        "id": "569",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Derebucak",
+        "slug": "derebucak"
+    },
+    {
+        "id": "570",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Doğanhisar",
+        "slug": "doganhisar"
+    },
+    {
+        "id": "571",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Emirgazi",
+        "slug": "emirgazi"
+    },
+    {
+        "id": "572",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Ereğli",
+        "slug": "eregli"
+    },
+    {
+        "id": "573",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Güneysınır",
+        "slug": "guneysinir"
+    },
+    {
+        "id": "574",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Hadim",
+        "slug": "hadim"
+    },
+    {
+        "id": "575",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Halkapınar",
+        "slug": "halkapinar"
+    },
+    {
+        "id": "576",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Hüyük",
+        "slug": "huyuk"
+    },
+    {
+        "id": "577",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Ilgın",
+        "slug": "ilgin"
+    },
+    {
+        "id": "578",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Kadınhanı",
+        "slug": "kadinhani"
+    },
+    {
+        "id": "579",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Karapınar",
+        "slug": "karapinar"
+    },
+    {
+        "id": "580",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Kulu",
+        "slug": "kulu"
+    },
+    {
+        "id": "581",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Sarayönü",
+        "slug": "sarayonu"
+    },
+    {
+        "id": "582",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Seydişehir",
+        "slug": "seydisehir"
+    },
+    {
+        "id": "583",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Taşkent",
+        "slug": "taskent"
+    },
+    {
+        "id": "584",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Tuzlukçu",
+        "slug": "tuzlukcu"
+    },
+    {
+        "id": "585",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Yalıhüyük",
+        "slug": "yalihuyuk"
+    },
+    {
+        "id": "586",
+        "country_id": "227",
+        "city_id": "42",
+        "name": "Yunak",
+        "slug": "yunak"
+    },
+    {
+        "id": "587",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Kütahya",
+        "slug": "kutahya"
+    },
+    {
+        "id": "588",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Altıntaş",
+        "slug": "altintas"
+    },
+    {
+        "id": "589",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Aslanapa",
+        "slug": "aslanapa"
+    },
+    {
+        "id": "590",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Çavdarhisar",
+        "slug": "cavdarhisar"
+    },
+    {
+        "id": "591",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Domaniç",
+        "slug": "domanic"
+    },
+    {
+        "id": "592",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Dumlupınar",
+        "slug": "dumlupinar"
+    },
+    {
+        "id": "593",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Emet",
+        "slug": "emet"
+    },
+    {
+        "id": "594",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Gediz",
+        "slug": "gediz"
+    },
+    {
+        "id": "595",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Hisarcık",
+        "slug": "hisarcik"
+    },
+    {
+        "id": "596",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Pazarlar",
+        "slug": "pazarlar"
+    },
+    {
+        "id": "597",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Simav",
+        "slug": "simav"
+    },
+    {
+        "id": "598",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Şaphane",
+        "slug": "saphane"
+    },
+    {
+        "id": "599",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Tavşanlı",
+        "slug": "tavsanli"
+    },
+    {
+        "id": "600",
+        "country_id": "227",
+        "city_id": "43",
+        "name": "Tunçbilek",
+        "slug": "tuncbilek"
+    },
+    {
+        "id": "601",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Malatya",
+        "slug": "malatya"
+    },
+    {
+        "id": "602",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Akçadağ",
+        "slug": "akcadag"
+    },
+    {
+        "id": "603",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Arapkir",
+        "slug": "arapkir"
+    },
+    {
+        "id": "604",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Arguvan",
+        "slug": "arguvan"
+    },
+    {
+        "id": "605",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Battalgazi",
+        "slug": "battalgazi"
+    },
+    {
+        "id": "606",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Darende",
+        "slug": "darende"
+    },
+    {
+        "id": "607",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Doğanşehir",
+        "slug": "dogansehir"
+    },
+    {
+        "id": "608",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Doğanyol",
+        "slug": "doganyol"
+    },
+    {
+        "id": "609",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Hekimhan",
+        "slug": "hekimhan"
+    },
+    {
+        "id": "610",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Kale",
+        "slug": "kale"
+    },
+    {
+        "id": "611",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Kuluncak",
+        "slug": "kuluncak"
+    },
+    {
+        "id": "612",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Pötürge",
+        "slug": "poturge"
+    },
+    {
+        "id": "613",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Yazıhan",
+        "slug": "yazihan"
+    },
+    {
+        "id": "614",
+        "country_id": "227",
+        "city_id": "44",
+        "name": "Yeşilyurt",
+        "slug": "yesilyurt"
+    },
+    {
+        "id": "615",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Manisa",
+        "slug": "manisa"
+    },
+    {
+        "id": "616",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Ahmetli",
+        "slug": "ahmetli"
+    },
+    {
+        "id": "617",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Akhisar",
+        "slug": "akhisar"
+    },
+    {
+        "id": "618",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Alaşehir",
+        "slug": "alasehir"
+    },
+    {
+        "id": "619",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Demirci",
+        "slug": "demirci"
+    },
+    {
+        "id": "620",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Gölmarmara",
+        "slug": "golmarmara"
+    },
+    {
+        "id": "621",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Gördes",
+        "slug": "gordes"
+    },
+    {
+        "id": "622",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Kırkağaç",
+        "slug": "kirkagac"
+    },
+    {
+        "id": "623",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Köprübaşı",
+        "slug": "koprubasi"
+    },
+    {
+        "id": "624",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Kula",
+        "slug": "kula"
+    },
+    {
+        "id": "625",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Salihli",
+        "slug": "salihli"
+    },
+    {
+        "id": "626",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Sarıgöl",
+        "slug": "sarigol"
+    },
+    {
+        "id": "627",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Saruhanlı",
+        "slug": "saruhanli"
+    },
+    {
+        "id": "628",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Selendi",
+        "slug": "selendi"
+    },
+    {
+        "id": "629",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Soma",
+        "slug": "soma"
+    },
+    {
+        "id": "630",
+        "country_id": "227",
+        "city_id": "45",
+        "name": "Turgutlu",
+        "slug": "turgutlu"
+    },
+    {
+        "id": "631",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Kahramanmaraş",
+        "slug": "kahramanmaras"
+    },
+    {
+        "id": "632",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Afşin",
+        "slug": "afsin"
+    },
+    {
+        "id": "633",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Andırın",
+        "slug": "andirin"
+    },
+    {
+        "id": "634",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Çağlayancerit",
+        "slug": "caglayancerit"
+    },
+    {
+        "id": "635",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Ekinözü",
+        "slug": "ekinozu"
+    },
+    {
+        "id": "636",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Elbistan",
+        "slug": "elbistan"
+    },
+    {
+        "id": "637",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Göksun",
+        "slug": "goksun"
+    },
+    {
+        "id": "638",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Nurhak",
+        "slug": "nurhak"
+    },
+    {
+        "id": "639",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Pazarcık",
+        "slug": "pazarcik"
+    },
+    {
+        "id": "640",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Türkoğlu",
+        "slug": "turkoglu"
+    },
+    {
+        "id": "641",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Mardin",
+        "slug": "mardin"
+    },
+    {
+        "id": "642",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Dargeçit",
+        "slug": "dargecit"
+    },
+    {
+        "id": "643",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Derik",
+        "slug": "derik"
+    },
+    {
+        "id": "644",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Kızıltepe",
+        "slug": "kiziltepe"
+    },
+    {
+        "id": "645",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Mazıdağı",
+        "slug": "mazidagi"
+    },
+    {
+        "id": "646",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Midyat(Estel)",
+        "slug": "midyatestel"
+    },
+    {
+        "id": "647",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Nusaybin",
+        "slug": "nusaybin"
+    },
+    {
+        "id": "648",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Ömerli",
+        "slug": "omerli"
+    },
+    {
+        "id": "649",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Savur",
+        "slug": "savur"
+    },
+    {
+        "id": "650",
+        "country_id": "227",
+        "city_id": "47",
+        "name": "Yeşilli",
+        "slug": "yesilli"
+    },
+    {
+        "id": "651",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Muğla",
+        "slug": "mugla"
+    },
+    {
+        "id": "652",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Bodrum",
+        "slug": "bodrum"
+    },
+    {
+        "id": "653",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Dalaman",
+        "slug": "dalaman"
+    },
+    {
+        "id": "654",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Datça",
+        "slug": "datca"
+    },
+    {
+        "id": "655",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Fethiye",
+        "slug": "fethiye"
+    },
+    {
+        "id": "656",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Kavaklıdere",
+        "slug": "kavaklidere"
+    },
+    {
+        "id": "657",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Köyceğiz",
+        "slug": "koycegiz"
+    },
+    {
+        "id": "658",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Marmaris",
+        "slug": "marmaris"
+    },
+    {
+        "id": "659",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Milas",
+        "slug": "milas"
+    },
+    {
+        "id": "660",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Ortaca",
+        "slug": "ortaca"
+    },
+    {
+        "id": "661",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Ula",
+        "slug": "ula"
+    },
+    {
+        "id": "662",
+        "country_id": "227",
+        "city_id": "48",
+        "name": "Yatağan",
+        "slug": "yatagan"
+    },
+    {
+        "id": "663",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Muş",
+        "slug": "mus"
+    },
+    {
+        "id": "664",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Bulanık",
+        "slug": "bulanik"
+    },
+    {
+        "id": "665",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Hasköy",
+        "slug": "haskoy"
+    },
+    {
+        "id": "666",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Korkut",
+        "slug": "korkut"
+    },
+    {
+        "id": "667",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Malazgirt",
+        "slug": "malazgirt"
+    },
+    {
+        "id": "668",
+        "country_id": "227",
+        "city_id": "49",
+        "name": "Varto",
+        "slug": "varto"
+    },
+    {
+        "id": "669",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Nevşehir",
+        "slug": "nevsehir"
+    },
+    {
+        "id": "670",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Acıgöl",
+        "slug": "acigol"
+    },
+    {
+        "id": "671",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Avanos",
+        "slug": "avanos"
+    },
+    {
+        "id": "672",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Derinkuyu",
+        "slug": "derinkuyu"
+    },
+    {
+        "id": "673",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Gülşehir",
+        "slug": "gulsehir"
+    },
+    {
+        "id": "674",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Hacıbektaş",
+        "slug": "hacibektas"
+    },
+    {
+        "id": "675",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Kozaklı",
+        "slug": "kozakli"
+    },
+    {
+        "id": "676",
+        "country_id": "227",
+        "city_id": "50",
+        "name": "Göreme",
+        "slug": "goreme"
+    },
+    {
+        "id": "677",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Niğde",
+        "slug": "nigde"
+    },
+    {
+        "id": "678",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Altunhisar",
+        "slug": "altunhisar"
+    },
+    {
+        "id": "679",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Bor",
+        "slug": "bor"
+    },
+    {
+        "id": "680",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Çamardı",
+        "slug": "camardi"
+    },
+    {
+        "id": "681",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Çiftlik(Özyurt)",
+        "slug": "ciftlikozyurt"
+    },
+    {
+        "id": "682",
+        "country_id": "227",
+        "city_id": "51",
+        "name": "Ulukışla",
+        "slug": "ulukisla"
+    },
+    {
+        "id": "683",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Ordu",
+        "slug": "ordu"
+    },
+    {
+        "id": "684",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Akkuş",
+        "slug": "akkus"
+    },
+    {
+        "id": "685",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Aybastı",
+        "slug": "aybasti"
+    },
+    {
+        "id": "686",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Çamaş",
+        "slug": "camas"
+    },
+    {
+        "id": "687",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Çatalpınar",
+        "slug": "catalpinar"
+    },
+    {
+        "id": "688",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Çaybaşı",
+        "slug": "caybasi"
+    },
+    {
+        "id": "689",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Fatsa",
+        "slug": "fatsa"
+    },
+    {
+        "id": "690",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Gölköy",
+        "slug": "golkoy"
+    },
+    {
+        "id": "691",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Gülyalı",
+        "slug": "gulyali"
+    },
+    {
+        "id": "692",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Gürgentepe",
+        "slug": "gurgentepe"
+    },
+    {
+        "id": "693",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "İkizce",
+        "slug": "ikizce"
+    },
+    {
+        "id": "694",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Karadüz(Kabadüz)",
+        "slug": "karaduzkabaduz"
+    },
+    {
+        "id": "695",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Kabataş",
+        "slug": "kabatas"
+    },
+    {
+        "id": "696",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Korgan",
+        "slug": "korgan"
+    },
+    {
+        "id": "697",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Kumru",
+        "slug": "kumru"
+    },
+    {
+        "id": "698",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Mesudiye",
+        "slug": "mesudiye"
+    },
+    {
+        "id": "699",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Perşembe",
+        "slug": "persembe"
+    },
+    {
+        "id": "700",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Ulubey",
+        "slug": "ulubey"
+    },
+    {
+        "id": "701",
+        "country_id": "227",
+        "city_id": "52",
+        "name": "Ünye",
+        "slug": "unye"
+    },
+    {
+        "id": "702",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Rize",
+        "slug": "rize"
+    },
+    {
+        "id": "703",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Ardeşen",
+        "slug": "ardesen"
+    },
+    {
+        "id": "704",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Çamlıhemşin",
+        "slug": "camlihemsin"
+    },
+    {
+        "id": "705",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Çayeli",
+        "slug": "cayeli"
+    },
+    {
+        "id": "706",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Derepazarı",
+        "slug": "derepazari"
+    },
+    {
+        "id": "707",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Fındıklı",
+        "slug": "findikli"
+    },
+    {
+        "id": "708",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Güneysu",
+        "slug": "guneysu"
+    },
+    {
+        "id": "709",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Hemşin",
+        "slug": "hemsin"
+    },
+    {
+        "id": "710",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "İkizdere",
+        "slug": "ikizdere"
+    },
+    {
+        "id": "711",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "İyidere",
+        "slug": "iyidere"
+    },
+    {
+        "id": "712",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Kalkandere",
+        "slug": "kalkandere"
+    },
+    {
+        "id": "713",
+        "country_id": "227",
+        "city_id": "53",
+        "name": "Pazar",
+        "slug": "pazar"
+    },
+    {
+        "id": "714",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Adapazarı",
+        "slug": "adapazari"
+    },
+    {
+        "id": "715",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Hendek",
+        "slug": "hendek"
+    },
+    {
+        "id": "716",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Arifiye",
+        "slug": "arifiye"
+    },
+    {
+        "id": "717",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Erenler",
+        "slug": "erenler"
+    },
+    {
+        "id": "718",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Serdivan",
+        "slug": "serdivan"
+    },
+    {
+        "id": "719",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Akyazı",
+        "slug": "akyazi"
+    },
+    {
+        "id": "720",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Ferizli",
+        "slug": "ferizli"
+    },
+    {
+        "id": "721",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Geyve",
+        "slug": "geyve"
+    },
+    {
+        "id": "722",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Karapürçek",
+        "slug": "karapurcek"
+    },
+    {
+        "id": "723",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Karasu",
+        "slug": "karasu"
+    },
+    {
+        "id": "724",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Kaynarca",
+        "slug": "kaynarca"
+    },
+    {
+        "id": "725",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Kocaali",
+        "slug": "kocaali"
+    },
+    {
+        "id": "726",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Pamukova",
+        "slug": "pamukova"
+    },
+    {
+        "id": "727",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Sapanca",
+        "slug": "sapanca"
+    },
+    {
+        "id": "728",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Söğütlü",
+        "slug": "sogutlu"
+    },
+    {
+        "id": "729",
+        "country_id": "227",
+        "city_id": "54",
+        "name": "Taraklı",
+        "slug": "tarakli"
+    },
+    {
+        "id": "730",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Atakum",
+        "slug": "atakum"
+    },
+    {
+        "id": "731",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "İlkadım",
+        "slug": "ilkadim"
+    },
+    {
+        "id": "732",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Canik",
+        "slug": "canik"
+    },
+    {
+        "id": "733",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Tekkeköy",
+        "slug": "tekkekoy"
+    },
+    {
+        "id": "734",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Alaçam",
+        "slug": "alacam"
+    },
+    {
+        "id": "735",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Asarcık",
+        "slug": "asarcik"
+    },
+    {
+        "id": "736",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Ayvacık",
+        "slug": "ayvacik"
+    },
+    {
+        "id": "737",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Bafra",
+        "slug": "bafra"
+    },
+    {
+        "id": "738",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Çarşamba",
+        "slug": "carsamba"
+    },
+    {
+        "id": "739",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Havza",
+        "slug": "havza"
+    },
+    {
+        "id": "740",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Kavak",
+        "slug": "kavak"
+    },
+    {
+        "id": "741",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Ladik",
+        "slug": "ladik"
+    },
+    {
+        "id": "742",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "19Mayıs(Ballıca)",
+        "slug": "19mayisballica"
+    },
+    {
+        "id": "743",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Salıpazarı",
+        "slug": "salipazari"
+    },
+    {
+        "id": "744",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Terme",
+        "slug": "terme"
+    },
+    {
+        "id": "745",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Vezirköprü",
+        "slug": "vezirkopru"
+    },
+    {
+        "id": "746",
+        "country_id": "227",
+        "city_id": "55",
+        "name": "Yakakent",
+        "slug": "yakakent"
+    },
+    {
+        "id": "747",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Siirt",
+        "slug": "siirt"
+    },
+    {
+        "id": "748",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Baykan",
+        "slug": "baykan"
+    },
+    {
+        "id": "749",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Eruh",
+        "slug": "eruh"
+    },
+    {
+        "id": "750",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Kurtalan",
+        "slug": "kurtalan"
+    },
+    {
+        "id": "751",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Pervari",
+        "slug": "pervari"
+    },
+    {
+        "id": "752",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Aydınlar",
+        "slug": "aydinlar"
+    },
+    {
+        "id": "753",
+        "country_id": "227",
+        "city_id": "56",
+        "name": "Şirvan",
+        "slug": "sirvan"
+    },
+    {
+        "id": "754",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Sinop",
+        "slug": "sinop"
+    },
+    {
+        "id": "755",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Ayancık",
+        "slug": "ayancik"
+    },
+    {
+        "id": "756",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Boyabat",
+        "slug": "boyabat"
+    },
+    {
+        "id": "757",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Dikmen",
+        "slug": "dikmen"
+    },
+    {
+        "id": "758",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Durağan",
+        "slug": "duragan"
+    },
+    {
+        "id": "759",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Erfelek",
+        "slug": "erfelek"
+    },
+    {
+        "id": "760",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Gerze",
+        "slug": "gerze"
+    },
+    {
+        "id": "761",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Saraydüzü",
+        "slug": "sarayduzu"
+    },
+    {
+        "id": "762",
+        "country_id": "227",
+        "city_id": "57",
+        "name": "Türkeli",
+        "slug": "turkeli"
+    },
+    {
+        "id": "763",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Sivas",
+        "slug": "sivas"
+    },
+    {
+        "id": "764",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Akıncılar",
+        "slug": "akincilar"
+    },
+    {
+        "id": "765",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Altınyayla",
+        "slug": "altinyayla"
+    },
+    {
+        "id": "766",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Divriği",
+        "slug": "divrigi"
+    },
+    {
+        "id": "767",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Doğanşar",
+        "slug": "dogansar"
+    },
+    {
+        "id": "768",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Gemerek",
+        "slug": "gemerek"
+    },
+    {
+        "id": "769",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Gölova",
+        "slug": "golova"
+    },
+    {
+        "id": "770",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Gürün",
+        "slug": "gurun"
+    },
+    {
+        "id": "771",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Hafik",
+        "slug": "hafik"
+    },
+    {
+        "id": "772",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "İmranlı",
+        "slug": "imranli"
+    },
+    {
+        "id": "773",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Kangal",
+        "slug": "kangal"
+    },
+    {
+        "id": "774",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Koyulhisar",
+        "slug": "koyulhisar"
+    },
+    {
+        "id": "775",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Suşehri",
+        "slug": "susehri"
+    },
+    {
+        "id": "776",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Şarkışla",
+        "slug": "sarkisla"
+    },
+    {
+        "id": "777",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Ulaş",
+        "slug": "ulas"
+    },
+    {
+        "id": "778",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Yıldızeli",
+        "slug": "yildizeli"
+    },
+    {
+        "id": "779",
+        "country_id": "227",
+        "city_id": "58",
+        "name": "Zara",
+        "slug": "zara"
+    },
+    {
+        "id": "780",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Tekirdağ",
+        "slug": "tekirdag"
+    },
+    {
+        "id": "781",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Çerkezköy",
+        "slug": "cerkezkoy"
+    },
+    {
+        "id": "782",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Çorlu",
+        "slug": "corlu"
+    },
+    {
+        "id": "783",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Hayrabolu",
+        "slug": "hayrabolu"
+    },
+    {
+        "id": "784",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Malkara",
+        "slug": "malkara"
+    },
+    {
+        "id": "785",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Marmaraereğlisi",
+        "slug": "marmaraereglisi"
+    },
+    {
+        "id": "786",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Muratlı",
+        "slug": "muratli"
+    },
+    {
+        "id": "787",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Saray",
+        "slug": "saray"
+    },
+    {
+        "id": "788",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Şarköy",
+        "slug": "sarkoy"
+    },
+    {
+        "id": "789",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Tokat",
+        "slug": "tokat"
+    },
+    {
+        "id": "790",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Almus",
+        "slug": "almus"
+    },
+    {
+        "id": "791",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Artova",
+        "slug": "artova"
+    },
+    {
+        "id": "792",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Başçiftlik",
+        "slug": "basciftlik"
+    },
+    {
+        "id": "793",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Erbaa",
+        "slug": "erbaa"
+    },
+    {
+        "id": "794",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Niksar",
+        "slug": "niksar"
+    },
+    {
+        "id": "795",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Pazar",
+        "slug": "pazar"
+    },
+    {
+        "id": "796",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Reşadiye",
+        "slug": "resadiye"
+    },
+    {
+        "id": "797",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Sulusaray",
+        "slug": "sulusaray"
+    },
+    {
+        "id": "798",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Turhal",
+        "slug": "turhal"
+    },
+    {
+        "id": "799",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Yeşilyurt",
+        "slug": "yesilyurt"
+    },
+    {
+        "id": "800",
+        "country_id": "227",
+        "city_id": "60",
+        "name": "Zile",
+        "slug": "zile"
+    },
+    {
+        "id": "801",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Trabzon",
+        "slug": "trabzon"
+    },
+    {
+        "id": "802",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Akçaabat",
+        "slug": "akcaabat"
+    },
+    {
+        "id": "803",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Araklı",
+        "slug": "arakli"
+    },
+    {
+        "id": "804",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Arsin",
+        "slug": "arsin"
+    },
+    {
+        "id": "805",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Beşikdüzü",
+        "slug": "besikduzu"
+    },
+    {
+        "id": "806",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Çarşıbaşı",
+        "slug": "carsibasi"
+    },
+    {
+        "id": "807",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Çaykara",
+        "slug": "caykara"
+    },
+    {
+        "id": "808",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Dernekpazarı",
+        "slug": "dernekpazari"
+    },
+    {
+        "id": "809",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Düzköy",
+        "slug": "duzkoy"
+    },
+    {
+        "id": "810",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Hayrat",
+        "slug": "hayrat"
+    },
+    {
+        "id": "811",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Köprübaşı",
+        "slug": "koprubasi"
+    },
+    {
+        "id": "812",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Maçka",
+        "slug": "macka"
+    },
+    {
+        "id": "813",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Of",
+        "slug": "of"
+    },
+    {
+        "id": "814",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Sürmene",
+        "slug": "surmene"
+    },
+    {
+        "id": "815",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Şalpazarı",
+        "slug": "salpazari"
+    },
+    {
+        "id": "816",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Tonya",
+        "slug": "tonya"
+    },
+    {
+        "id": "817",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Vakfıkebir",
+        "slug": "vakfikebir"
+    },
+    {
+        "id": "818",
+        "country_id": "227",
+        "city_id": "61",
+        "name": "Yomra",
+        "slug": "yomra"
+    },
+    {
+        "id": "819",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Tunceli",
+        "slug": "tunceli"
+    },
+    {
+        "id": "820",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Çemişgezek",
+        "slug": "cemisgezek"
+    },
+    {
+        "id": "821",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Hozat",
+        "slug": "hozat"
+    },
+    {
+        "id": "822",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Mazgirt",
+        "slug": "mazgirt"
+    },
+    {
+        "id": "823",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Nazımiye",
+        "slug": "nazimiye"
+    },
+    {
+        "id": "824",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Ovacık",
+        "slug": "ovacik"
+    },
+    {
+        "id": "825",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Pertek",
+        "slug": "pertek"
+    },
+    {
+        "id": "826",
+        "country_id": "227",
+        "city_id": "62",
+        "name": "Pülümür",
+        "slug": "pulumur"
+    },
+    {
+        "id": "827",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Şanlıurfa",
+        "slug": "sanliurfa"
+    },
+    {
+        "id": "828",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Akçakale",
+        "slug": "akcakale"
+    },
+    {
+        "id": "829",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Birecik",
+        "slug": "birecik"
+    },
+    {
+        "id": "830",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Bozova",
+        "slug": "bozova"
+    },
+    {
+        "id": "831",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Ceylanpınar",
+        "slug": "ceylanpinar"
+    },
+    {
+        "id": "832",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Halfeti",
+        "slug": "halfeti"
+    },
+    {
+        "id": "833",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Harran",
+        "slug": "harran"
+    },
+    {
+        "id": "834",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Hilvan",
+        "slug": "hilvan"
+    },
+    {
+        "id": "835",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Siverek",
+        "slug": "siverek"
+    },
+    {
+        "id": "836",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Suruç",
+        "slug": "suruc"
+    },
+    {
+        "id": "837",
+        "country_id": "227",
+        "city_id": "63",
+        "name": "Viranşehir",
+        "slug": "viransehir"
+    },
+    {
+        "id": "838",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Uşak",
+        "slug": "usak"
+    },
+    {
+        "id": "839",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Banaz",
+        "slug": "banaz"
+    },
+    {
+        "id": "840",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Eşme",
+        "slug": "esme"
+    },
+    {
+        "id": "841",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Karahallı",
+        "slug": "karahalli"
+    },
+    {
+        "id": "842",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Sivaslı",
+        "slug": "sivasli"
+    },
+    {
+        "id": "843",
+        "country_id": "227",
+        "city_id": "64",
+        "name": "Ulubey",
+        "slug": "ulubey"
+    },
+    {
+        "id": "844",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Van",
+        "slug": "van"
+    },
+    {
+        "id": "845",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Bahçesaray",
+        "slug": "bahcesaray"
+    },
+    {
+        "id": "846",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Başkale",
+        "slug": "baskale"
+    },
+    {
+        "id": "847",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Çaldıran",
+        "slug": "caldiran"
+    },
+    {
+        "id": "848",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Çatak",
+        "slug": "catak"
+    },
+    {
+        "id": "849",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Edremit(Gümüşdere)",
+        "slug": "edremitgumusdere"
+    },
+    {
+        "id": "850",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Erciş",
+        "slug": "ercis"
+    },
+    {
+        "id": "851",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Gevaş",
+        "slug": "gevas"
+    },
+    {
+        "id": "852",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Gürpınar",
+        "slug": "gurpinar"
+    },
+    {
+        "id": "853",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Muradiye",
+        "slug": "muradiye"
+    },
+    {
+        "id": "854",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Özalp",
+        "slug": "ozalp"
+    },
+    {
+        "id": "855",
+        "country_id": "227",
+        "city_id": "65",
+        "name": "Saray",
+        "slug": "saray"
+    },
+    {
+        "id": "856",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Yozgat",
+        "slug": "yozgat"
+    },
+    {
+        "id": "857",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Akdağmadeni",
+        "slug": "akdagmadeni"
+    },
+    {
+        "id": "858",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Aydıncık",
+        "slug": "aydincik"
+    },
+    {
+        "id": "859",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Boğazlıyan",
+        "slug": "bogazliyan"
+    },
+    {
+        "id": "860",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Çandır",
+        "slug": "candir"
+    },
+    {
+        "id": "861",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Çayıralan",
+        "slug": "cayiralan"
+    },
+    {
+        "id": "862",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Çekerek",
+        "slug": "cekerek"
+    },
+    {
+        "id": "863",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Kadışehri",
+        "slug": "kadisehri"
+    },
+    {
+        "id": "864",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Saraykent",
+        "slug": "saraykent"
+    },
+    {
+        "id": "865",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Sarıkaya",
+        "slug": "sarikaya"
+    },
+    {
+        "id": "866",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Sorgun",
+        "slug": "sorgun"
+    },
+    {
+        "id": "867",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Şefaatli",
+        "slug": "sefaatli"
+    },
+    {
+        "id": "868",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Yenifakılı",
+        "slug": "yenifakili"
+    },
+    {
+        "id": "869",
+        "country_id": "227",
+        "city_id": "66",
+        "name": "Yerköy",
+        "slug": "yerkoy"
+    },
+    {
+        "id": "870",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Zonguldak",
+        "slug": "zonguldak"
+    },
+    {
+        "id": "871",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Alaplı",
+        "slug": "alapli"
+    },
+    {
+        "id": "872",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Çaycuma",
+        "slug": "caycuma"
+    },
+    {
+        "id": "873",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Devrek",
+        "slug": "devrek"
+    },
+    {
+        "id": "874",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Karadenizereğli",
+        "slug": "karadenizeregli"
+    },
+    {
+        "id": "875",
+        "country_id": "227",
+        "city_id": "67",
+        "name": "Gökçebey",
+        "slug": "gokcebey"
+    },
+    {
+        "id": "876",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Aksaray",
+        "slug": "aksaray"
+    },
+    {
+        "id": "877",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Ağaçören",
+        "slug": "agacoren"
+    },
+    {
+        "id": "878",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Eskil",
+        "slug": "eskil"
+    },
+    {
+        "id": "879",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Gülağaç(Ağaçlı)",
+        "slug": "gulagacagacli"
+    },
+    {
+        "id": "880",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Güzelyurt",
+        "slug": "guzelyurt"
+    },
+    {
+        "id": "881",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Ortaköy",
+        "slug": "ortakoy"
+    },
+    {
+        "id": "882",
+        "country_id": "227",
+        "city_id": "68",
+        "name": "Sarıyahşi",
+        "slug": "sariyahsi"
+    },
+    {
+        "id": "883",
+        "country_id": "227",
+        "city_id": "69",
+        "name": "Bayburt",
+        "slug": "bayburt"
+    },
+    {
+        "id": "884",
+        "country_id": "227",
+        "city_id": "69",
+        "name": "Aydıntepe",
+        "slug": "aydintepe"
+    },
+    {
+        "id": "885",
+        "country_id": "227",
+        "city_id": "69",
+        "name": "Demirözü",
+        "slug": "demirozu"
+    },
+    {
+        "id": "886",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Karaman",
+        "slug": "karaman"
+    },
+    {
+        "id": "887",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Ayrancı",
+        "slug": "ayranci"
+    },
+    {
+        "id": "888",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Başyayla",
+        "slug": "basyayla"
+    },
+    {
+        "id": "889",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Ermenek",
+        "slug": "ermenek"
+    },
+    {
+        "id": "890",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Kazımkarabekir",
+        "slug": "kazimkarabekir"
+    },
+    {
+        "id": "891",
+        "country_id": "227",
+        "city_id": "70",
+        "name": "Sarıveliler",
+        "slug": "sariveliler"
+    },
+    {
+        "id": "892",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Kırıkkale",
+        "slug": "kirikkale"
+    },
+    {
+        "id": "893",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Bahşili",
+        "slug": "bahsili"
+    },
+    {
+        "id": "894",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Balışeyh",
+        "slug": "baliseyh"
+    },
+    {
+        "id": "895",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Çelebi",
+        "slug": "celebi"
+    },
+    {
+        "id": "896",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Delice",
+        "slug": "delice"
+    },
+    {
+        "id": "897",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Karakeçili",
+        "slug": "karakecili"
+    },
+    {
+        "id": "898",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Keskin",
+        "slug": "keskin"
+    },
+    {
+        "id": "899",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Sulakyurt",
+        "slug": "sulakyurt"
+    },
+    {
+        "id": "900",
+        "country_id": "227",
+        "city_id": "71",
+        "name": "Yahşihan",
+        "slug": "yahsihan"
+    },
+    {
+        "id": "901",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Batman",
+        "slug": "batman"
+    },
+    {
+        "id": "902",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Beşiri",
+        "slug": "besiri"
+    },
+    {
+        "id": "903",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Gercüş",
+        "slug": "gercus"
+    },
+    {
+        "id": "904",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Hasankeyf",
+        "slug": "hasankeyf"
+    },
+    {
+        "id": "905",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Kozluk",
+        "slug": "kozluk"
+    },
+    {
+        "id": "906",
+        "country_id": "227",
+        "city_id": "72",
+        "name": "Sason",
+        "slug": "sason"
+    },
+    {
+        "id": "907",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Şırnak",
+        "slug": "sirnak"
+    },
+    {
+        "id": "908",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Beytüşşebap",
+        "slug": "beytussebap"
+    },
+    {
+        "id": "909",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Cizre",
+        "slug": "cizre"
+    },
+    {
+        "id": "910",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Güçlükonak",
+        "slug": "guclukonak"
+    },
+    {
+        "id": "911",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "İdil",
+        "slug": "idil"
+    },
+    {
+        "id": "912",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Silopi",
+        "slug": "silopi"
+    },
+    {
+        "id": "913",
+        "country_id": "227",
+        "city_id": "73",
+        "name": "Uludere",
+        "slug": "uludere"
+    },
+    {
+        "id": "914",
+        "country_id": "227",
+        "city_id": "74",
+        "name": "Bartın",
+        "slug": "bartin"
+    },
+    {
+        "id": "915",
+        "country_id": "227",
+        "city_id": "74",
+        "name": "Amasra",
+        "slug": "amasra"
+    },
+    {
+        "id": "916",
+        "country_id": "227",
+        "city_id": "74",
+        "name": "Kurucaşile",
+        "slug": "kurucasile"
+    },
+    {
+        "id": "917",
+        "country_id": "227",
+        "city_id": "74",
+        "name": "Ulus",
+        "slug": "ulus"
+    },
+    {
+        "id": "918",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Ardahan",
+        "slug": "ardahan"
+    },
+    {
+        "id": "919",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Çıldır",
+        "slug": "cildir"
+    },
+    {
+        "id": "920",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Damal",
+        "slug": "damal"
+    },
+    {
+        "id": "921",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Göle",
+        "slug": "gole"
+    },
+    {
+        "id": "922",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Hanak",
+        "slug": "hanak"
+    },
+    {
+        "id": "923",
+        "country_id": "227",
+        "city_id": "75",
+        "name": "Posof",
+        "slug": "posof"
+    },
+    {
+        "id": "924",
+        "country_id": "227",
+        "city_id": "76",
+        "name": "Iğdır",
+        "slug": "igdir"
+    },
+    {
+        "id": "925",
+        "country_id": "227",
+        "city_id": "76",
+        "name": "Aralık",
+        "slug": "aralik"
+    },
+    {
+        "id": "926",
+        "country_id": "227",
+        "city_id": "76",
+        "name": "Karakoyunlu",
+        "slug": "karakoyunlu"
+    },
+    {
+        "id": "927",
+        "country_id": "227",
+        "city_id": "76",
+        "name": "Tuzluca",
+        "slug": "tuzluca"
+    },
+    {
+        "id": "928",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Yalova",
+        "slug": "yalova"
+    },
+    {
+        "id": "929",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Altınova",
+        "slug": "altinova"
+    },
+    {
+        "id": "930",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Armutlu",
+        "slug": "armutlu"
+    },
+    {
+        "id": "931",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Çiftlikköy",
+        "slug": "ciftlikkoy"
+    },
+    {
+        "id": "932",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Çınarcık",
+        "slug": "cinarcik"
+    },
+    {
+        "id": "933",
+        "country_id": "227",
+        "city_id": "77",
+        "name": "Termal",
+        "slug": "termal"
+    },
+    {
+        "id": "934",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Karabük",
+        "slug": "karabuk"
+    },
+    {
+        "id": "935",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Eflani",
+        "slug": "eflani"
+    },
+    {
+        "id": "936",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Eskipazar",
+        "slug": "eskipazar"
+    },
+    {
+        "id": "937",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Ovacık",
+        "slug": "ovacik"
+    },
+    {
+        "id": "938",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Safranbolu",
+        "slug": "safranbolu"
+    },
+    {
+        "id": "939",
+        "country_id": "227",
+        "city_id": "78",
+        "name": "Yenice",
+        "slug": "yenice"
+    },
+    {
+        "id": "940",
+        "country_id": "227",
+        "city_id": "79",
+        "name": "Kilis",
+        "slug": "kilis"
+    },
+    {
+        "id": "941",
+        "country_id": "227",
+        "city_id": "79",
+        "name": "Elbeyli",
+        "slug": "elbeyli"
+    },
+    {
+        "id": "942",
+        "country_id": "227",
+        "city_id": "79",
+        "name": "Musabeyli",
+        "slug": "musabeyli"
+    },
+    {
+        "id": "943",
+        "country_id": "227",
+        "city_id": "79",
+        "name": "Polateli",
+        "slug": "polateli"
+    },
+    {
+        "id": "944",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Osmaniye",
+        "slug": "osmaniye"
+    },
+    {
+        "id": "945",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Bahçe",
+        "slug": "bahce"
+    },
+    {
+        "id": "946",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Düziçi",
+        "slug": "duzici"
+    },
+    {
+        "id": "947",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Hasanbeyli",
+        "slug": "hasanbeyli"
+    },
+    {
+        "id": "948",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Kadirli",
+        "slug": "kadirli"
+    },
+    {
+        "id": "949",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Sumbas",
+        "slug": "sumbas"
+    },
+    {
+        "id": "950",
+        "country_id": "227",
+        "city_id": "80",
+        "name": "Toprakkale",
+        "slug": "toprakkale"
+    },
+    {
+        "id": "951",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Düzce",
+        "slug": "duzce"
+    },
+    {
+        "id": "952",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Akçakoca",
+        "slug": "akcakoca"
+    },
+    {
+        "id": "953",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Cumayeri",
+        "slug": "cumayeri"
+    },
+    {
+        "id": "954",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Çilimli",
+        "slug": "cilimli"
+    },
+    {
+        "id": "955",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Gölyaka",
+        "slug": "golyaka"
+    },
+    {
+        "id": "956",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Gümüşova",
+        "slug": "gumusova"
+    },
+    {
+        "id": "957",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Kaynaşlı",
+        "slug": "kaynasli"
+    },
+    {
+        "id": "958",
+        "country_id": "227",
+        "city_id": "81",
+        "name": "Yığılca",
+        "slug": "yigilca"
+    },
+    {
+        "id": "962",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Pamukkale",
+        "slug": "pamukkale"
+    },
+    {
+        "id": "963",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Olympos",
+        "slug": "olympos"
+    },
+    {
+        "id": "964",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Çıralı",
+        "slug": "cirali"
+    },
+    {
+        "id": "965",
+        "country_id": "227",
+        "city_id": "7",
+        "name": "Kaleiçi",
+        "slug": "kaleici"
+    },
+    {
+        "id": "967",
+        "country_id": "227",
+        "city_id": "33",
+        "name": "Kızkalesi",
+        "slug": "kizkalesi"
+    },
+    {
+        "id": "968",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Karahayit",
+        "slug": "karahayit"
+    },
+    {
+        "id": "974",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Onikişubat",
+        "slug": "onikisubat"
+    },
+    {
+        "id": "975",
+        "country_id": "227",
+        "city_id": "46",
+        "name": "Dülkadiroğlu",
+        "slug": "dulkadiroglu"
+    },
+    {
+        "id": "976",
+        "country_id": "227",
+        "city_id": "20",
+        "name": "Merkezefendi",
+        "slug": "merkezefendi"
+    },
+    {
+        "id": "977",
+        "country_id": "227",
+        "city_id": "59",
+        "name": "Kapaklı",
+        "slug": "kapakli"
+    }
+]

@@ -133,7 +133,7 @@ class Mysql extends \MysqliDb
             $tableColumns = $this->rawQuery("SHOW COLUMNS FROM $table");
             $columnNames = array_column($tableColumns, 'Field');
             
-            Logger::getInstance()->logSaveFile('Table columns: ' . json_encode($columnNames), 'info', true);
+            // Logger::getInstance()->logSaveFile('Table columns: ' . json_encode($columnNames), 'info', true);
 
             if (!empty($this->columnToTable)) {
                 foreach ($this->columnToTable as $column => $relation) {
@@ -154,11 +154,11 @@ class Mysql extends \MysqliDb
                 }
             }
 
-            Logger::getInstance()->logSaveFile('Joins array: ' . json_encode($joins), 'info', true);
-            Logger::getInstance()->logSaveFile('Select array: ' . json_encode($select), 'info', true);
-            Logger::getInstance()->logSaveFile('Filters: ' . json_encode($filters), 'info', true);
-            Logger::getInstance()->logSaveFile('Search: ' . json_encode($search), 'info', true);
-            Logger::getInstance()->logSaveFile('Order: ' . json_encode($order), 'info', true);
+            // Logger::getInstance()->logSaveFile('Joins array: ' . json_encode($joins), 'info', true);
+            // Logger::getInstance()->logSaveFile('Select array: ' . json_encode($select), 'info', true);
+            // Logger::getInstance()->logSaveFile('Filters: ' . json_encode($filters), 'info', true);
+            // Logger::getInstance()->logSaveFile('Search: ' . json_encode($search), 'info', true);
+            // Logger::getInstance()->logSaveFile('Order: ' . json_encode($order), 'info', true);
 
             if (!empty($filters)) {
                 foreach ($filters as $filter) {
@@ -215,13 +215,13 @@ class Mysql extends \MysqliDb
             }
 
             $whereClause = !empty($where) ? 'WHERE ' . implode(' AND ', $where) : '';
-            Logger::getInstance()->logSaveFile('WHERE clause: ' . $whereClause, 'info', true);
+            // Logger::getInstance()->logSaveFile('WHERE clause: ' . $whereClause, 'info', true);
 
             $joinClause = implode(' ', $joins);
-            Logger::getInstance()->logSaveFile('JOIN clause: ' . $joinClause, 'info', true);
+            // Logger::getInstance()->logSaveFile('JOIN clause: ' . $joinClause, 'info', true);
 
             $selectClause = implode(', ', $select);
-            Logger::getInstance()->logSaveFile('SELECT clause: ' . $selectClause, 'info', true);
+            // Logger::getInstance()->logSaveFile('SELECT clause: ' . $selectClause, 'info', true);
 
             if ($search) {
                 $searchWhere = [];

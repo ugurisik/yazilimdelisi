@@ -120,9 +120,9 @@
                     <div class="app-sidebar-logo flex-shrink-0 d-none d-md-flex align-items-center px-8 justify-content-center"
                         id="kt_app_sidebar_logo">
                         <a href="index.html">
-                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/derman_black_logo.png"
+                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/dermanlogo_black.png"
                                 class="h-75px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
-                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/derman_white_logo.png"
+                            <img alt="Logo" src="<?= SITE_URL ?>/public/assets/media/logos/dermanlogo_white.png"
                                 class="h-75px h-lg-75px theme-dark-show" />
                         </a>
 
@@ -165,13 +165,13 @@
                                     'submenu' => [
                                         [
                                             'title' => 'Paket Listesi',
-                                            'url' => 'contact/address/1',
+                                            'url' => 'package/packages',
                                             'active' => false,
                                             'icon' => 'bi bi-list-stars',
                                         ],
                                         [
                                             'title' => 'Kategori Listesi',
-                                            'url' => 'contact/address/2',
+                                            'url' => 'package/categories',
                                             'active' => false,
                                             'icon' => 'bi bi-tags',
                                         ],
@@ -205,7 +205,7 @@
                                 ],
                                 [
                                     'title' => 'Vergi Daireleri',
-                                    'url' => 'home',
+                                    'url' => 'taxoffices',
                                     'active' => false,
                                     'icon' => 'bi bi-house-gear',
                                 ],
