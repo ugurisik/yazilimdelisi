@@ -1,6 +1,8 @@
 <?php
 
+use App\helpers\utils\security;
 use App\middlewares\admin\areaMw;
+use App\records\Country;
 
 class area extends Controller
 {
@@ -50,19 +52,10 @@ class area extends Controller
         }
     }
 
-    public function add($param)
+    public function save($param)
     {
         if (isset($param) && $param == "country") {
-            $this->jsonResponse($this->area->addCountry(), 200);
-        } else if (isset($param) && $param == "city") {
-        } else if (isset($param) && $param == "zone") {
-        }
-    }
-
-    public function edit($param)
-    {
-        if (isset($param) && $param == "country") {
-            $this->jsonResponse($this->area->editCountry(), 200);
+            $this->jsonResponse($this->area->saveCountry(), 200);
         } else if (isset($param) && $param == "city") {
         } else if (isset($param) && $param == "zone") {
         }
@@ -86,4 +79,21 @@ class area extends Controller
         }
     }
 
+    public function edit(...$params)
+    {
+        $guid = $_POST['guid'];
+        $field = $_POST['field'];
+        $value = $_POST['value'];
+        
+
+        try {
+            $record = new Country($guid);
+            $record->$field = $value;
+            $record->save();
+
+            $this->jsonResponse(['status' => 'success', 'message' => 'Kayıt güncellendi'], 200);
+        } catch (Exception $e) {
+            $this->jsonResponse(['status' => 'error', 'message' => $e->getMessage()], 500);
+        }
+    }
 }

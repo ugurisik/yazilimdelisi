@@ -34,6 +34,7 @@ class Mysql extends \MysqliDb
     {
         parent::__construct(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT, DB_CHARSET);
         $this->debugMode = defined('DEBUG') ? DEBUG : false;
+        
     }
 
     public static function getInstance()
@@ -534,7 +535,7 @@ class Mysql extends \MysqliDb
         return $this->queryLog;
     }
 
-    private function resetQuery()
+    public function resetQuery()
     {
         $this->reset();
         return $this;

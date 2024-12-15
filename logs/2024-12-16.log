@@ -1,0 +1,1176 @@
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName desc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName desc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName desc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.commonName LIKE ?
+Final query: SELECT country.* FROM country  WHERE country.commonName LIKE ? ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => %z%
+    [1] => 0
+    [2] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ?
+Final query: SELECT country.* FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ? ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => %z%
+    [1] => %b%
+    [2] => 0
+    [3] => 10
+)
+
+http://localhost/yazilimdelisi/admin555/area/list/country/pdf?draw=1&length=999999&filters[0][column]=commonName&filters[0][operator]=LIKE&filters[0][value]=z&filters[0][text]=Common+Name+%C4%B0%C3%A7erir+z&filters[1][column]=commonName&filters[1][operator]=LIKE&filters[1][value]=b&filters[1][text]=Common+Name+%C4%B0%C3%A7erir+b&
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ?
+Final query: SELECT country.* FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ?  LIMIT ?, ?
+Final params: Array
+(
+    [0] => %z%
+    [1] => %b%
+    [2] => 0
+    [3] => 999999
+)
+
+{"draw":1,"recordsTotal":7,"recordsFiltered":7,"data":[{"id":15,"guid":"a60f4c04c3d342e9a0994b2a8000f509","commonName":"Azerbaijan","nativeName":"Az\u0259rbaycan","iso2":"AZ","iso3":"AZE","currency":"AZN","phoneCode":"994","capital":"Baku","region":"Asia","subRegion":"Western Asia","languages":"az,tr,ru","latLng":"40.5,47.5","status":1},{"id":22,"guid":"c0ee33a4e9884e0c80c6b6aea2c1928b","commonName":"Belize","nativeName":"Belize","iso2":"BZ","iso3":"BLZ","currency":"BZD","phoneCode":"501","capital":"Belmopan","region":"Americas","subRegion":"Central America","languages":"en,es","latLng":"17.25,-88.75","status":1},{"id":28,"guid":"0286c40276c1401c92825030d37e2384","commonName":"Bosnia and Herzegovina","nativeName":"Bosna i Hercegovina","iso2":"BA","iso3":"BIH","currency":"BAM","phoneCode":"387","capital":"Sarajevo","region":"Europe","subRegion":"Southern Europe","languages":"bs,hr,sr","latLng":"44,18","status":1},{"id":31,"guid":"1cdfff57b6c3448083d4538744487ca3","commonName":"Brazil","nativeName":"Brasil","iso2":"BR","iso3":"BRA","currency":"BRL","phoneCode":"55","capital":"Bras\u00edlia","region":"Americas","subRegion":"South America","languages":"pt","latLng":"-10,-55","status":1},{"id":151,"guid":"f98fcd1ccd32460285cbdb421fab8454","commonName":"Mozambique","nativeName":"Mo\u00e7ambique","iso2":"MZ","iso3":"MOZ","currency":"MZN","phoneCode":"258","capital":"Maputo","region":"Africa","subRegion":"Eastern Africa","languages":"pt","latLng":"-18.25,35","status":1},{"id":238,"guid":"cc895026c9fc4dfc9a21a42bb95db702","commonName":"Uzbekistan","nativeName":"\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d","iso2":"UZ","iso3":"UZB","currency":"UZS","phoneCode":"998","capital":"Tashkent","region":"Asia","subRegion":"Central Asia","languages":"ru,uz","latLng":"41,64","status":1},{"id":247,"guid":"9b5d7c6615f441909e64db430486abc0","commonName":"Zambia","nativeName":"Zambia","iso2":"ZM","iso3":"ZMB","currency":"ZMW","phoneCode":"260","capital":"Lusaka","region":"Africa","subRegion":"Eastern Africa","languages":"en","latLng":"-15,30","status":1}]}
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ?
+Final query: SELECT country.* FROM country  WHERE country.commonName LIKE ? AND country.commonName LIKE ?  LIMIT ?, ?
+Final params: Array
+(
+    [0] => %z%
+    [1] => %b%
+    [2] => 0
+    [3] => 999999
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 250
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 250
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.status = ?
+Final query: SELECT country.* FROM country  WHERE country.status = ? ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY subRegion asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country    LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Processing column: countryGuid with relation: Array
+(
+    [table] => country
+    [column] => guid
+    [select] => nativeName
+)
+
+Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
+Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Processing column: countryGuid with relation: Array
+(
+    [table] => country
+    [column] => guid
+    [select] => nativeName
+)
+
+Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
+Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Processing column: countryGuid with relation: Array
+(
+    [table] => country
+    [column] => guid
+    [select] => nativeName
+)
+
+Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
+Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Processing column: countryGuid with relation: Array
+(
+    [table] => country
+    [column] => guid
+    [select] => nativeName
+)
+
+Count query: SELECT COUNT(DISTINCT city.id) as total FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid 
+Final query: SELECT city.*, city.countryGuid AS countryGuid_raw, COALESCE(country_countryGuid.nativeName, '') AS countryGuid FROM city LEFT JOIN country AS country_countryGuid ON city.countryGuid = country_countryGuid.guid  ORDER BY id asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 10
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 10
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 10
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 20
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 30
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.status = ?
+Final query: SELECT country.* FROM country  WHERE country.status = ? ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  WHERE country.status = ?
+Final query: SELECT country.* FROM country  WHERE country.status = ? ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 10
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 25
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 25
+    [1] => 25
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 50
+    [1] => 25
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 100
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 100
+    [1] => 100
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 200
+    [1] => 100
+)
+
+Count query: SELECT COUNT(DISTINCT country.id) as total FROM country  
+Final query: SELECT country.* FROM country   ORDER BY commonName asc LIMIT ?, ?
+Final params: Array
+(
+    [0] => 0
+    [1] => 100
+)
+

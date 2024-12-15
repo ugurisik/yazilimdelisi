@@ -37,7 +37,7 @@ async function confirmMessage(message, confirmText = 'Evet', cancelText = 'Hayı
     return result.isConfirmed;
 }
 
-async function deleteItemFunc(url, selected,table) {
+async function deleteItemFunc(url, selected, table) {
     if (selected.length === 0) {
         showAlert('Lütfen silmek istediğiniz kayıtları seçin', 'warning');
         return;
@@ -122,7 +122,7 @@ function formToJson($form) {
 }
 
 function resetForm($form) {
-    $form.find('input:not([type=hidden]), select, textarea').val('');
+    $form.find('input:not([name=csrf_token]), select, textarea').val('');
     $form.find('input[type=checkbox], input[type=radio]').prop('checked', false);
 }
 
@@ -164,20 +164,44 @@ function fillForm(el, data, type = null) {
 }
 
 function fillFormBulk($form, data) {
-
-    // {
-    //     name: 'John',
-    //     email: 'john@example.com',
-    //     active: true,
-    //     country: 'TR'
-    // }
-
+    console.log($form);
+    console.log(data);
     for (let key in data) {
         const $el = $form.find(`[name="${key}"]`);
         if ($el.length) {
             fillForm($el, data[key]);
         }
     }
+}
+
+function requiredForm($form) {
+    let invalid = true;
+    $form.find('[required]').each(function () {
+        let $field = $(this);
+        let value = $field.val().trim();
+        let label = $field.closest("div").find('label').text() || $field.attr('name');
+        if (value === '') {
+            $field.addClass('is-invalid');
+            $field.closest('.form-group').addClass('is-invalid');
+            $field.closest('.form-group').find('.invalid-feedback').remove();
+            $field.closest('.form-group').append('<div class="invalid-feedback">' + label + ' alanı zorunludur</div>');
+            invalid = false;
+        }else{
+            $field.removeClass('is-invalid');
+            $field.closest('.form-group').removeClass('is-invalid');
+            $field.closest('.form-group').find('.invalid-feedback').remove();
+        }
+    });
+    return invalid;
+}
+
+function clearRequiredForm($form) {
+    $form.find('[required]').each(function () {
+        let $field = $(this);
+        $field.removeClass('is-invalid');
+        $field.closest('.form-group').removeClass('is-invalid');
+        $field.closest('.form-group').find('.invalid-feedback').remove();
+    });
 }
 
 function formatDate(date, format = 'DD.MM.YYYY') {

@@ -42,7 +42,7 @@ class Logger
             'guid' => functions::getInstance()->generateGuid(),
             'actionGuid' => $actionGuid,
             'actionTitle' => $actionTitle,
-            'actionData' => json_encode($actionData),
+            'actionData' => json_encode($actionData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
             'actionType' => $actionType,
             'actionTable' => $actionTable,
             'userGuid' => "-",

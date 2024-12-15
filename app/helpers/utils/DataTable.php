@@ -5,6 +5,7 @@ namespace App\helpers\utils;
 class DataTable
 {
     private $id;
+    private $defId;
     private $url;
     private $columns = [];
     private $orderColumns = [];
@@ -45,7 +46,8 @@ class DataTable
 
     public function __construct($id)
     {
-        $this->id = $id;
+        $this->defId = $id;
+        $this->id = $id.'_table';
         return $this;
     }
 
